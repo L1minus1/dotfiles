@@ -1,2 +1,0 @@
-# dotifles
-L's Dotfiles
