@@ -3,6 +3,7 @@
 alias p="sudo pacman"
 alias ss="sudo systemctl"
 alias yt="mpsyt"
+alias 6cord="6cord -t MjQ2MzcyMjA5MTU1NjM3MjQ4.XPXuLQ.nmCbixe8ga2GvTm9yoFyHqw8QAk"
 	#Dotfile Management
 	alias df="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
 	#Config Aliases
