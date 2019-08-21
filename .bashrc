@@ -1,5 +1,6 @@
 #Aliases
 #Abrieviations
+alias ls='ls --color=auto'
 alias p="sudo pacman"
 alias ss="sudo systemctl"
 alias yt="mpsyt"
