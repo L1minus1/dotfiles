@@ -174,7 +174,7 @@ gaps inner 20
 gaps outer 5
 
 #polybar
-exec_always polybar example
+exec_always polybar -r example
 
 #Firefox
 bindsym $mod+b exec firefox
@@ -189,7 +189,7 @@ bindsym $mod+m exec ~/.scripts/PlayMusic.sh
 exec_always compton
 
 #Wallpaper
-exec_always feh --bg-scale ~/Pictures/VimBG.png
+exec_always feh --bg-scale ~/Pictures/Mountains.jpg
 
 #Launch Ranger
 bindsym $mod+shift+f exec konsole -e ranger
