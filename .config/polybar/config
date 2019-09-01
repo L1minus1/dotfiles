@@ -18,14 +18,14 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #222
-background-alt = #444
+background = #002b36
+background-alt = #073642
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+foreground = #839496
+foreground-alt = #93a1a1
+primary = #859900
+secondary = #d33682
+alert = #dc322f
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
@@ -58,7 +58,7 @@ font-3 = FontAwesome:size=10;1
 
 modules-left = bspwm i3
 modules-center = 
-modules-right = filesystem xbacklight alsa pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -208,7 +208,7 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
+format-underline = #2aa198
 label = %percentage:2%%
 
 [module/memory]
@@ -216,7 +216,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #4bffdc
+format-underline = #6c71c4
 label = %percentage_used%%
 
 [module/wlan]
