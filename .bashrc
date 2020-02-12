@@ -15,3 +15,5 @@ alias 6cord="6cord -t MjQ2MzcyMjA5MTU1NjM3MjQ4.XPXuLQ.nmCbixe8ga2GvTm9yoFyHqw8QA
 	alias cfx="vim ~/.Xresources"
 	#Suckless Aliases 
 	alias cst="sudo make install -C ~/suckless/st/"
+#A E S T H E T I C
+neofetch
