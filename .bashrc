@@ -1,5 +1,6 @@
 #Aliases
 #Abrieviations
+alias ub='clight --ambient-gamma'
 alias ls='ls --color=auto'
 alias p="sudo pacman"
 alias ss="sudo systemctl"
