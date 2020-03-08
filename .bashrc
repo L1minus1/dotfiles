@@ -18,7 +18,7 @@
 	alias cfi="vim ~/.config/i3/config"
 	alias cfb="vim ~/.bashrc"
 	alias cfst="vim ~/suckless/st/config.h"
-	alias cfx="vim ~/.Xresources"
+	alias cfx="vim ~/.xinitrc"
 #Suckless Aliases 
 	alias cst="sudo make install -C ~/suckless/st/"
 #A E S T H E T I C
