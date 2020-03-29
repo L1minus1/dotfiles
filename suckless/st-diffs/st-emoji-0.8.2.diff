@@ -1,0 +1,12 @@
+--- compare	2020-03-29 13:09:04.129304839 -0700
++++ config.def.h	2020-03-29 13:07:46.969728248 -0700
+@@ -6,6 +6,9 @@
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+ static char *font = "Liberation Mono:pixelsize=14:antialias=true:autohint=true";
++static char *font2[] = {
++	"JoyPixels:pixelsize 14:antialias=true:autohint=true",
++};
+ static int borderpx = 2;
+ 
+ /*
