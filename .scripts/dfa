@@ -1,0 +1,4 @@
+#!/bin/bash
+df add $1
+df commit -m "update {$1}"
+df push
