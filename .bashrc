@@ -15,7 +15,7 @@
 
 #Config Aliases
 	alias cfp="vim ~/.config/polybar/config"
-	alias cfi="vim ~/.config/i3/config"
+	alias cfi3="vim ~/.config/i3/config"
 	alias cfb="vim ~/.bashrc"
 	alias cfst="vim ~/suckless/st/config.h"
 	alias cfx="vim ~/.xinitrc"
