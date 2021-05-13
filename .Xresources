@@ -54,3 +54,4 @@
 !!! white dark/light
 !*color7:                S_base2
 !*color15:               S_base3
+URxvt.font: xft:Monospace:size=9:antialias=true
