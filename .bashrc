@@ -23,3 +23,6 @@
 	alias cst="sudo make install -C ~/suckless/st/"
 #A E S T H E T I C
 	neofetch --source ~/.alphabets/ARASAKA.txt
+#Environment Variables
+TERMINAL=urxvt
+
