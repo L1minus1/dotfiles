@@ -30,7 +30,7 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -189,7 +189,7 @@ bindsym $mod+m exec ~/.scripts/PlayMusic.sh
 exec_always compton
 
 #Wallpaper
-exec_always feh --bg-scale ~/Pictures/Mountains.jpg
+exec_always feh --bg-scale ~/Pictures/ArasakaBG.png
 
 #Launch Ranger
 bindsym $mod+shift+f exec konsole -e ranger
