@@ -1,0 +1,35 @@
+#!/bin/bash
+
+#create temporary environment
+mkdir ~/.pkgsTMP
+
+#generate package list of non-AUR items
+pacman -Qqe | grep -vx "$(pacman -Qmqe)" > ~/.pkgsTMP/pkgs
+	
+	#generate non-AUR desciptions
+	comm -23 <(pacman -Qqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //" | sort) <(pacman -Qmqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //" | sort) > ~/.pkgsTMP/pkgsDesc
+#generate AUR Package list
+pacman -Qmqe > ~/.pkgsTMP/aur
+	
+	#generate AUR package descriptions
+	(pacman -Qmqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //") > ~/.pkgsTMP/aurDesc
+
+#combine non-AUR files
+paste -d "," ~/.pkgsTMP/pkgs ~/.pkgsTMP/pkgsDesc > ~/.pkgsTMP/pkgsList
+sed -i -e 's/^/,/' ~/.pkgsTMP/pkgsList
+#cat ~/.pkgsTMP/pkgsList
+
+#combine AUR files
+paste -d "," ~/.pkgsTMP/aur ~/.pkgsTMP/aurDesc > ~/.pkgsTMP/aurList
+sed -i -e 's/^/A,/' ~/.pkgsTMP/aurList
+#cat ~/.pkgsTMP/aurList
+
+#compile to CSV
+echo "#TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)" > ~/.pkgsTMP/heading
+cat ~/.pkgsTMP/heading ~/.pkgsTMP/pkgsList ~/.pkgsTMP/aurList > ~/.pkgList
+
+#push updated list
+dfa ~/pkgList.csv
+
+#delete temporary environment
+rm -rf ~/.pkgsTMP
