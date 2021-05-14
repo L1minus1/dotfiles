@@ -8,13 +8,13 @@ pacman -Qqe | grep -vx "$(pacman -Qmqe)" > ~/.pkgsTMP/pkgs
 	
 	#generate non-AUR desciptions
 	comm -23 <(pacman -Qqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //" | sort) <(pacman -Qmqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //" | sort) > ~/.pkgsTMP/pkgsDesc
-	sed 's/,//' ~/.pkgsTMP/pkgsDesc
+	sed -i 's/,//' ~/.pkgsTMP/pkgsDesc
 #generate AUR Package list
 pacman -Qmqe > ~/.pkgsTMP/aur
 	
 	#generate AUR package descriptions
 	(pacman -Qmqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //") > ~/.pkgsTMP/aurDesc
-	sed 's/,//' ~/.pkgsTMP/aurDesc
+	sed -i 's/,//' ~/.pkgsTMP/aurDesc
 #combine non-AUR files
 paste -d "," ~/.pkgsTMP/pkgs ~/.pkgsTMP/pkgsDesc > ~/.pkgsTMP/pkgsList
 sed -i -e 's/^/,/' ~/.pkgsTMP/pkgsList
