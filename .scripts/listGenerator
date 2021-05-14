@@ -7,7 +7,7 @@ mkdir ~/.pkgsTMP
 pacman -Qqe | grep -vx "$(pacman -Qmqe)" > ~/.pkgsTMP/pkgs
 	
 	#generate non-AUR desciptions
-	comm -23 <(pacman -Qqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //" | sort) <(pacman -Qmqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //" | sort) > ~/.pkgsTMP/pkgsDesc
+	comm -23 <(pacman -Qqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //") <(pacman -Qmqei | grep -Po '(?<=^Description).*' | sed "s/^\s*: //") > ~/.pkgsTMP/pkgsDesc
 	sed -i 's/,//g' ~/.pkgsTMP/pkgsDesc
 #generate AUR Package list
 pacman -Qmqe > ~/.pkgsTMP/aur
