@@ -56,5 +56,7 @@
 !*color15:               S_base3
 URxvt.font: xft:LiberationMono:size=9:antialias=true
 urxvt*scrollBar: false
+URxvt.background: #002b36
 URxvt.transparent: true
 URxvt.shading: 20
+#URxvt.background: #002b36
