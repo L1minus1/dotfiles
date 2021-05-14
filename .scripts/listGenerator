@@ -26,7 +26,7 @@ sed -i -e 's/^/A,/' ~/.pkgsTMP/aurList
 
 #compile to CSV
 echo "#TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)" > ~/.pkgsTMP/heading
-cat ~/.pkgsTMP/heading ~/.pkgsTMP/pkgsList ~/.pkgsTMP/aurList > ~/.pkgList.csv
+(cat ~/.pkgsTMP/heading ~/.pkgsTMP/pkgsList ~/.pkgsTMP/aurList) > ~/.pkgList.csv
 
 #push updated list
 dfa ~/pkgList.csv
