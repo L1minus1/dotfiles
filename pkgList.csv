@@ -7,7 +7,7 @@
 ,bash,A featureful general-purpose sound server
 ,binutils,A file manager with curses interface which provides Vi[m]-like environment
 ,bison,A fork of i3wm tiling window manager with more features including gaps
-,blueman,a free open source, and cross-platform media player
+,blueman,a free open source and cross-platform media player
 ,bluez,A generic library support script
 ,bluez-tools,A GNU tool for automatically configuring source code
 ,bluez-utils,A GNU tool for automatically creating Makefiles
@@ -33,7 +33,7 @@
 ,flex,A utility for reading man pages
 ,gawk,A utility to apply patch files to original sources
 ,gcc,A utility to show the full path of commands
-,gcc-libs,A web browser built for speed simplicity, and security
+,gcc-libs,A web browser built for speed simplicity and security
 ,gettext,A windowing toolkit for use with tcl
 ,git,Base Arch Linux files
 ,glibc,Bluetooth support for PulseAudio
@@ -133,7 +133,7 @@
 ,ttf-font-awesome,Standard licenses distribution package
 ,ttf-joypixels,Stores passwords and encryption keys
 ,unrar,Synaptics driver for notebook touchpads
-,unzip,Sync files to and from Google Drive S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
+,unzip,Sync files to and from Google Drive S3 Swift Cloudfiles Dropbox and Google Cloud Storage
 ,usbutils,system and service manager
 ,util-linux,System Utilities Based on Sysfs
 ,vi,sysvinit compat for systemd
@@ -146,7 +146,7 @@
 ,xclip,TeX Live core distribution
 ,xdg-user-dirs,TeX Live - Large collection of add-on packages for LaTeX
 ,xf86-input-evdev,TeX Live - LaTeX classes and packages for specific publishers
-,xf86-input-libinput,TeX Live - LaTeX packages for law linguistics, social sciences, and humanities
+,xf86-input-libinput,TeX Live - LaTeX packages for law linguistics social sciences and humanities
 ,xf86-input-synaptics,TeX Live - Music typesetting packages
 ,xf86-input-vmmouse,TeX Live - Packages for drawings graphics
 ,xf86-input-void,TeX Live - Setups for typesetting various board games including chess
@@ -171,9 +171,9 @@
 ,xorg-smproxy,Utility for modifying keymaps and button mappings
 ,xorg-twm,Utility programs used for creating patch files
 ,xorg-x11perf,Utility to organize and develop raw images
-,xorg-xauth,Utility used to store backup, and transport files
+,xorg-xauth,Utility used to store backup and transport files
 ,xorg-xbacklight,VA-API implementation for gallium
-,xorg-xcmsdb,Vi Improved a highly configurable, improved version of the vi text editor
+,xorg-xcmsdb,Vi Improved a highly configurable improved version of the vi text editor
 ,xorg-xcursorgen,Virtual filesystem implementation for GIO
 ,xorg-xdpyinfo,VTE-based terminal emulator (part of LXDE)
 ,xorg-xdriinfo,X compositor that may fix tearing issues
@@ -204,9 +204,9 @@ A,clight,A C daemon that turns your webcam into a light sensor. It can also chan
 A,etcher,Flash OS images to SD cards & USB drives safely and easily
 A,flashplugin,Adobe Flash Player NPAPI
 A,laptop-mode-tools,Power Saving tool for Linux
-A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support support to specify outputs, support for unlimited clickable areas and support for longer input.
+A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support support to specify outputs support for unlimited clickable areas and support for longer input.
 A,libxft-bgra,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
-A,moonlight-qt,GameStream client for PCs (Windows Mac, and Linux)
+A,moonlight-qt,GameStream client for PCs (Windows Mac and Linux)
 A,mp3blaster,A console based mp3 and OGG player
 A,mpg321,A completely free drop-in replacement for mpg123
 A,pa-applet-git,PulseAudio control applet
