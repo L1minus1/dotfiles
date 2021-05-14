@@ -4,14 +4,14 @@
 ,autoconf,A collection of USB tools to query connected USB devices
 ,automake,Advanced Linux Sound Architecture - Utilities
 ,b43-fwcutter,A fast and versatile file copying tool for remote and local files
-,bash,A featureful, general-purpose sound server
-,binutils,A file manager with curses interface, which provides Vi[m]-like environment
-,bison,A fork of i3wm tiling window manager with more features, including gaps
-,blueman,a free, open source, and cross-platform media player
+,bash,A featureful general-purpose sound server
+,binutils,A file manager with curses interface which provides Vi[m]-like environment
+,bison,A fork of i3wm tiling window manager with more features including gaps
+,blueman,a free open source, and cross-platform media player
 ,bluez,A generic library support script
 ,bluez-tools,A GNU tool for automatically configuring source code
 ,bluez-utils,A GNU tool for automatically creating Makefiles
-,bzip2,A highly capable, feature-rich programming language
+,bzip2,A highly capable feature-rich programming language
 ,chromium,A high-quality data compression program
 ,coreutils,A library-based package manager with dependency support
 ,cryptsetup,All-in-one voice and text chat for gamers that's free and secure.
@@ -22,18 +22,18 @@
 ,diffutils,An image viewing/manipulation program
 ,discord,An open-source implementation of the OpenGL specification
 ,dmidecode,An RSS/Atom feed reader for text terminals
-,e2fsprogs,A Partition Magic clone, frontend to GNU Parted
+,e2fsprogs,A Partition Magic clone frontend to GNU Parted
 ,fakeroot,Applet for managing network connections
 ,feh,A set of programs to assemble and manipulate binary and object files
 ,file,A set of tools to manage Bluetooth devices for Linux
 ,filesystem,A string search utility
 ,findutils,A terminal based program for viewing text files
 ,firefox,A tool for generating text-scanning programs
-,firefox-i18n-en-us,A tool for managing/monitoring Linux md device arrays, also known as Software RAID
+,firefox-i18n-en-us,A tool for managing/monitoring Linux md device arrays also known as Software RAID
 ,flex,A utility for reading man pages
 ,gawk,A utility to apply patch files to original sources
 ,gcc,A utility to show the full path of commands
-,gcc-libs,A web browser built for speed, simplicity, and security
+,gcc-libs,A web browser built for speed simplicity, and security
 ,gettext,A windowing toolkit for use with tcl
 ,git,Base Arch Linux files
 ,glibc,Bluetooth support for PulseAudio
@@ -64,7 +64,7 @@
 ,luit,Firmware files for Linux
 ,lvm2,Font family based on the Bitstream Vera Fonts with a wider range of characters
 ,lxterminal,For extracting and viewing files in .zip archives
-,m4,Generates status bar to use with i3bar, dzen2 or xmobar
+,m4,Generates status bar to use with i3bar dzen2 or xmobar
 ,make,Generic input driver for the X.Org server based on libinput
 ,man-db,Give certain users the ability to run some commands as root
 ,man-pages,GNU C Library
@@ -99,7 +99,7 @@
 ,pulseaudio-equalizer,Miscellaneous system utilities for Linux
 ,python-pip,Network connection manager and user applications
 ,r,NetworkManager GUI connection editor and widgets
-,ranger,Network monitoring tools, including ping
+,ranger,Network monitoring tools including ping
 ,rclone,Network utility to retrieve files from the Web
 ,reiserfsprogs,NTFS filesystem driver and utilities
 ,rsync,Open Source 3D acceleration driver for nVidia cards
@@ -126,14 +126,14 @@
 ,texlive-music,Server access control program for X
 ,texlive-pictures,Set the keyboard using the X Keyboard Extension
 ,texlive-pstricks,Simple command-line screenshot utility for X
-,texlive-publishers,Simple, vim-like file manager
+,texlive-publishers,Simple vim-like file manager
 ,texlive-science,Simple X server performance benchmarker
 ,tk,Small commandline tool to configure devices
 ,ttf-dejavu,Standalone web browser from mozilla.org
 ,ttf-font-awesome,Standard licenses distribution package
 ,ttf-joypixels,Stores passwords and encryption keys
 ,unrar,Synaptics driver for notebook touchpads
-,unzip,Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
+,unzip,Sync files to and from Google Drive S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage
 ,usbutils,system and service manager
 ,util-linux,System Utilities Based on Sysfs
 ,vi,sysvinit compat for systemd
@@ -146,13 +146,13 @@
 ,xclip,TeX Live core distribution
 ,xdg-user-dirs,TeX Live - Large collection of add-on packages for LaTeX
 ,xf86-input-evdev,TeX Live - LaTeX classes and packages for specific publishers
-,xf86-input-libinput,TeX Live - LaTeX packages for law, linguistics, social sciences, and humanities
+,xf86-input-libinput,TeX Live - LaTeX packages for law linguistics, social sciences, and humanities
 ,xf86-input-synaptics,TeX Live - Music typesetting packages
 ,xf86-input-vmmouse,TeX Live - Packages for drawings graphics
-,xf86-input-void,TeX Live - Setups for typesetting various board games, including chess
-,xf86-video-amdgpu,TeX Live - Typesetting for mathematics, natural and computer sciences
+,xf86-input-void,TeX Live - Setups for typesetting various board games including chess
+,xf86-video-amdgpu,TeX Live - Typesetting for mathematics natural and computer sciences
 ,xf86-video-ati,Text-based Web browser as well as pager
-,xf86-video-dummy,The basic file, shell and text manipulation utilities of the GNU operating system
+,xf86-video-dummy,The basic file shell and text manipulation utilities of the GNU operating system
 ,xf86-video-fbdev,the fast distributed version control system
 ,xf86-video-intel,The fastest terminal file manager ever written.
 ,xf86-video-nouveau,The GNU Bourne Again shell
@@ -171,9 +171,9 @@
 ,xorg-smproxy,Utility for modifying keymaps and button mappings
 ,xorg-twm,Utility programs used for creating patch files
 ,xorg-x11perf,Utility to organize and develop raw images
-,xorg-xauth,Utility used to store, backup, and transport files
+,xorg-xauth,Utility used to store backup, and transport files
 ,xorg-xbacklight,VA-API implementation for gallium
-,xorg-xcmsdb,Vi Improved, a highly configurable, improved version of the vi text editor
+,xorg-xcmsdb,Vi Improved a highly configurable, improved version of the vi text editor
 ,xorg-xcursorgen,Virtual filesystem implementation for GIO
 ,xorg-xdpyinfo,VTE-based terminal emulator (part of LXDE)
 ,xorg-xdriinfo,X compositor that may fix tearing issues
@@ -200,13 +200,13 @@
 ,xorg-xwd,X server resource database utility
 ,xorg-xwininfo,X Window System image dumping utility
 ,xorg-xwud,X Window System image undumping utility
-A,clight,A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature, dim your screen and set your dpms.
-A,etcher,Flash OS images to SD cards & USB drives, safely and easily
+A,clight,A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature dim your screen and set your dpms.
+A,etcher,Flash OS images to SD cards & USB drives safely and easily
 A,flashplugin,Adobe Flash Player NPAPI
 A,laptop-mode-tools,Power Saving tool for Linux
-A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support, support to specify outputs, support for unlimited clickable areas and support for longer input.
+A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support support to specify outputs, support for unlimited clickable areas and support for longer input.
 A,libxft-bgra,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
-A,moonlight-qt,GameStream client for PCs (Windows, Mac, and Linux)
+A,moonlight-qt,GameStream client for PCs (Windows Mac, and Linux)
 A,mp3blaster,A console based mp3 and OGG player
 A,mpg321,A completely free drop-in replacement for mpg123
 A,pa-applet-git,PulseAudio control applet
