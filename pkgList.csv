@@ -217,5 +217,5 @@ A,ttf-font-awesome-4,100% free version of font awesome.
 A,ttf-symbola,Font for symbol blocks of the Unicode Standard (TTF)
 A,xf86-input-keyboard,X.Org keyboard input driver
 A,xf86-input-mouse,X.org mouse input driver
-#A,yay,Yet another yogurt. Pacman wrapper and AUR helper written in go.
+A,yay,Yet another yogurt. Pacman wrapper and AUR helper written in go.
 A,zoom,Video Conferencing and Web Conferencing Service
