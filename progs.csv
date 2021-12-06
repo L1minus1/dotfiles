@@ -1,4 +1,3 @@
-#TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)
 ,alsa-utils,Advanced Linux Sound Architecture - Utilities
 ,android-file-transfer,Android MTP client with minimalistic UI
 ,autoconf,A GNU tool for automatically configuring source code
