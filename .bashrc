@@ -25,5 +25,4 @@
 	neofetch --source ~/.alphabets/ARASAKA.txt
 #Environment Variables
 TERMINAL=st
-
-
+#test
