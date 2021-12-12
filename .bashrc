@@ -24,5 +24,6 @@
 #A E S T H E T I C
 	neofetch --source ~/.alphabets/ARASAKA.txt
 #Environment Variables
-TERMINAL=urxvt
+TERMINAL=st
+
 
