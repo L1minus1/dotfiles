@@ -25,4 +25,5 @@
 	neofetch --source ~/.alphabets/ARASAKA.txt
 #Environment Variables
 TERMINAL=st
-#test
+export PATH="$HOME/.scripts:$PATH"
+alias pacman=sudo pacman
