@@ -34,7 +34,7 @@ echo "" > ~/.pkgsTMP/heading
 cat ~/.pkgsTMP/pkgs ~/.pkgsTMP/aur | wc -l 
 #push updated list
 autodfa ~/pkgList.csv
-df push
+~/.scripts/df push
 
 #delete temporary environment
 rm -rf ~/.pkgsTMP
