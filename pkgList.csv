@@ -35,6 +35,7 @@
 ,flatpak,Linux application sandboxing and distribution framework (formerly xdg-app)
 ,flex,A tool for generating text-scanning programs
 ,gcc,The GNU Compiler Collection - C and C++ frontends
+,gedit,GNOME Text Editor
 ,gnome-keyring,Stores passwords and encryption keys
 ,gparted,A Partition Magic clone frontend to GNU Parted
 ,gpm,A mouse server for the console and xterm
