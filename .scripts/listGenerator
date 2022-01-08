@@ -35,7 +35,7 @@ autodfa ~/pkgList.csv
 /usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME push > /dev/null 2>&1
 
 #display total packages
-echo "" ; cat ~/.pkgsTMP/pkgs ~/.pkgsTMP/aur | wc -l
+cat ~/.pkgsTMP/pkgs ~/.pkgsTMP/aur | wc -l | tr '\n' ' '
 
 #delete temporary environment
 rm -rf ~/.pkgsTMP
