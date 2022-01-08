@@ -30,10 +30,10 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec lxterminal
 
-# kill focused window
-bindsym $mod+Shift+q kill
+# kill focused window -------DISABLED FOR FIBONACCI LAYOUT--------
+#bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
@@ -174,7 +174,7 @@ gaps inner 20
 gaps outer 5
 
 #polybar
-exec_always polybar -r example
+exec_always pkill polybar ; polybar -r example
 
 #Firefox
 bindsym $mod+b exec firefox
@@ -212,6 +212,14 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 #Remove titlebar
 for_window [class="^.*"] border pixel 1
 new_window 1pixel
+
+#Fibonacci layout
+default_orientation vertical
+for_window [class=".*"] split toggle 
+bindsym $mod+shift+q split toggle kill
+
+######Important#####
+#to revert Fibonacci layout, comment or remove the above text ---AND--- uncomment the default mod+shift+q entry
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
