@@ -34,7 +34,7 @@ echo "" > ~/.pkgsTMP/heading
 cat ~/.pkgsTMP/pkgs ~/.pkgsTMP/aur | wc -l 
 #push updated list
 autodfa ~/pkgList.csv
-~/.scripts/df push
+/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME push
 
 #delete temporary environment
 rm -rf ~/.pkgsTMP
