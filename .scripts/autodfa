@@ -1,0 +1,11 @@
+/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME add $1
+/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME commit -m"automatic commit"
+if [ -n "$(/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME status - porcelain)" ];
+then
+ echo "IT IS CLEAN"
+else
+ /usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME status
+ echo "Pushing data to remote server!!!"
+ /usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME push
+fi
+
