@@ -33,7 +33,7 @@ echo "" > ~/.pkgsTMP/heading
 #Display list and total packages
 cat ~/.pkgsTMP/pkgs ~/.pkgsTMP/aur | wc -l 
 #push updated list
-dfa ~/pkgList.csv
+autodfa ~/pkgList.csv
 exec df push
 
 #delete temporary environment
