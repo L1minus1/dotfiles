@@ -26,4 +26,3 @@
 #Environment Variables
 TERMINAL=st
 export PATH="$HOME/.scripts:$PATH"
-alias pacman=sudo pacman

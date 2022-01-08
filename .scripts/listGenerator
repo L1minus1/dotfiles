@@ -26,11 +26,15 @@ sed -i -e 's/^/A,/' ~/.pkgsTMP/aurList
 #cat ~/.pkgsTMP/aurList
 
 #compile to CSV
-echo "#TAG,NAME IN REPO (or git url),PURPOSE (should be a verb phrase to sound right while installing)" > ~/.pkgsTMP/heading
+#---removed heading present in Luke's file--- re-add it to the empty string below to revert
+echo "" > ~/.pkgsTMP/heading
 (cat ~/.pkgsTMP/heading ~/.pkgsTMP/pkgsList ~/.pkgsTMP/aurList) > ~/pkgList.csv
 
+#Display list and total packages
+cat ~/.pkgsTMP/pkgs ~/.pkgsTMP/aur | wc -l 
 #push updated list
 dfa ~/pkgList.csv
+df push
 
 #delete temporary environment
 rm -rf ~/.pkgsTMP
