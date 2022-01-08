@@ -29,12 +29,13 @@ sed -i -e 's/^/A,/' ~/.pkgsTMP/aurList
 #---removed heading present in Luke's file--- re-add it to the empty string below to revert
 echo "" > ~/.pkgsTMP/heading
 (cat ~/.pkgsTMP/heading ~/.pkgsTMP/pkgsList ~/.pkgsTMP/aurList) > ~/pkgList.csv
-
-#Display list and total packages
-cat ~/.pkgsTMP/pkgs ~/.pkgsTMP/aur | wc -l 
+ 
 #push updated list
-autodfa ~/pkgList.csv
-/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME push
+autodfa ~/pkgList.csv 
+/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME push > /dev/null 2>&1
+
+#display total packages
+echo "" ; cat ~/.pkgsTMP/pkgs ~/.pkgsTMP/aur | wc -l
 
 #delete temporary environment
 rm -rf ~/.pkgsTMP
