@@ -26,9 +26,9 @@ sed -i -e 's/^/A,/' ~/.pkgsTMP/aurList
 #cat ~/.pkgsTMP/aurList
 
 #compile to CSV
-#---removed heading present in Luke's file--- re-add it to the empty string below to revert
-echo "" > ~/.pkgsTMP/heading
-(cat ~/.pkgsTMP/heading ~/.pkgsTMP/pkgsList ~/.pkgsTMP/aurList) > ~/pkgList.csv
+#---removed heading present in Luke's file--- to revert, re-add it to the empty string below and "~/.pkgsTMP/heading" to the cat below
+#echo "" > ~/.pkgsTMP/heading
+(cat ~/.pkgsTMP/pkgsList ~/.pkgsTMP/aurList) > ~/pkgList.csv
  
 #push updated list
 autodfa ~/pkgList.csv 
