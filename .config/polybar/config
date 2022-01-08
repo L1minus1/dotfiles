@@ -57,8 +57,8 @@ font-2 = siji:pixelsize=10;1
 font-3 = FontAwesome:size=10;1
 
 modules-left = bspwm i3
-modules-center = 
-modules-right = homesystem filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-center = xwindow
+modules-right = packages homesystem filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -78,6 +78,12 @@ tray-padding = 2
 cursor-click = pointer
 cursor-scroll = ns-resize
 
+[module/packages]
+type = custom/script
+exec = listGenerator | awk '{print ""$0 }'
+tail = true
+interval = 5
+
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
@@ -94,8 +100,7 @@ label-layout = %layout%
 label-layout-underline = ${colors.secondary}
 
 label-indicator-padding = 2
-label-indicator-margin = 1
-label-indicator-background = ${colors.secondary}
+label-indicator-margin = label-indicator-background = ${colors.secondary}
 label-indicator-underline = ${colors.secondary}
 
 [module/filesystem]
@@ -108,16 +113,13 @@ label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
-[module/homesystem]
-type = internal/fs
-interval = 25
-
-mount-0 = /home
-
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
- label-unmounted = %mountpoint% not mounted
- label-unmounted-foreground = ${colors.foreground-alt}
-
+;[module/homesystem]
+;type = internal/fs
+;interval = 25
+;mount-0 = /home
+;label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+; label-unmounted = %mountpoint% not mounted
+; label-unmounted-foreground = ${colors.foreground-alt}
 
 [module/bspwm]
 type = internal/bspwm
