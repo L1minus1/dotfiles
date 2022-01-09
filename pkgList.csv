@@ -187,6 +187,7 @@ A,clight,A C daemon that turns your webcam into a light sensor. It can also chan
 A,etcher-bin,Flash OS images to SD cards & USB drives safely and easily
 A,flashplayer-standalone,Adobe Flash Player Standalone (A.K.A. Adobe Flash Player Projector)
 A,flashplugin,Adobe Flash Player NPAPI
+A,growl-for-linux,Growl for Linux
 A,laptop-mode-tools,Power saving tool for Linux
 A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support support to specify outputs support for unlimited clickable areas and support for longer input.
 A,libxft-bgra-git,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
