@@ -48,6 +48,7 @@
 ,inetutils,A collection of common network programs
 ,intel-ucode,Microcode update files for Intel CPUs
 ,jfsutils,JFS filesystem utilities
+,jq,Command-line JSON processor
 ,kitty,A modern hackable featureful OpenGL-based terminal emulator
 ,libva-mesa-driver,VA-API implementation for gallium
 ,lightdm,A lightweight display manager
