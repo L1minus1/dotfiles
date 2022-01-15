@@ -96,6 +96,7 @@
 ,r,Language and environment for statistical computing and graphics
 ,ranger,Simple vim-like file manager
 ,rclone,Sync files to and from Google Drive S3 Swift Cloudfiles Dropbox and Google Cloud Storage
+,redshift,Adjusts the color temperature of your screen according to your surroundings.
 ,reflector,A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 ,reiserfsprogs,Reiserfs utilities
 ,rofi,A window switcher application launcher and dmenu replacement
