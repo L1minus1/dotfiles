@@ -50,6 +50,7 @@
 ,jfsutils,JFS filesystem utilities
 ,jq,Command-line JSON processor
 ,kitty,A modern hackable featureful OpenGL-based terminal emulator
+,libreoffice-fresh,LibreOffice branch which contains new features and program enhancements
 ,libva-mesa-driver,VA-API implementation for gallium
 ,lightdm,A lightweight display manager
 ,lightdm-gtk-greeter,GTK+ greeter for LightDM
