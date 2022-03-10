@@ -92,7 +92,6 @@
 ,pulseaudio,A featureful general-purpose sound server
 ,pulseaudio-alsa,ALSA Configuration for PulseAudio
 ,pulseaudio-bluetooth,Bluetooth support for PulseAudio
-,pulseaudio-equalizer,Graphical equalizer for PulseAudio
 ,python-pip,The PyPA recommended tool for installing Python packages
 ,r,Language and environment for statistical computing and graphics
 ,ranger,Simple vim-like file manager
