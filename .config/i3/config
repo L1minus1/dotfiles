@@ -177,7 +177,7 @@ gaps outer 5
 exec_always pkill polybar ; polybar -r example
 
 #Firefox
-bindsym $mod+b exec firefox
+bindsym $mod+b exec chromium
 
 #nm-applet
 exec_always nm-applet
