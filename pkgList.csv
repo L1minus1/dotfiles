@@ -87,6 +87,7 @@
 ,pavucontrol,PulseAudio Volume Control
 ,picom,X compositor that may fix tearing issues
 ,polkit-gnome,Legacy polkit authentication agent for GNOME
+,polybar,A fast and easy-to-use status bar
 ,powerline-fonts,patched fonts for powerline
 ,ppp,A daemon which implements the Point-to-Point Protocol for dial-up networking
 ,pulseaudio,A featureful general-purpose sound server
@@ -197,7 +198,6 @@ A,mcmojave-cursors,x-cursor theme inspired by macOS and based on capitaine-curso
 A,moonlight-qt,GameStream client for PCs (Windows Mac and Linux)
 A,pa-applet-git,PulseAudio control applet
 A,paru,Feature packed AUR helper
-A,polybar,A fast and easy-to-use status bar
 A,qogir-gtk-theme-git,Qogir is a flat Design theme for GTK
 A,siji,Iconic bitmap font based on stlarch with additional glyphs
 A,surf,A simple web browser based on WebKit/GTK+.
