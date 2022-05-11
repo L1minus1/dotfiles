@@ -112,7 +112,7 @@
 ,sudo,Give certain users the ability to run some commands as root
 ,texinfo,GNU documentation system for on-line information and printed output
 ,texlive-bibtexextra,TeX Live - Additional BibTeX styles and bibliography databases
-,texlive-fontsextra,TeX Live - all sorts of extra fonts
+,texlive-fontsextra,None
 ,texlive-formatsextra,TeX Live - collection of extra TeX 'formats'
 ,texlive-games,TeX Live - Setups for typesetting various board games including chess
 ,texlive-humanities,TeX Live - LaTeX packages for law linguistics social sciences and humanities
