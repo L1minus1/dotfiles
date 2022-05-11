@@ -64,23 +64,22 @@
 ,make,GNU make utility to maintain groups of programs
 ,man-db,A utility for reading man pages
 ,man-pages,Linux man pages
-,mkinitcpio,None
-,mlocate,Modular initramfs image creation utility
-,mps-youtube,Merging locate/updatedb implementation
-,mpv,Terminal based YouTube jukebox with playlist management
-,nano,a free open source and cross-platform media player
-,nautilus,Pico editor clone with enhancements
-,neofetch,Default file manager for GNOME
-,netctl,A CLI system information tool written in BASH that supports displaying images.
-,network-manager-applet,Profile based systemd network management
-,networkmanager,Applet for managing network connections
-,newsboat,Network connection manager and user applications
-,nilfs-utils,An RSS/Atom feed reader for text terminals
-,nnn,A log-structured file system supporting continuous snapshotting (userspace utils)
-,ntfs-3g,The fastest terminal file manager ever written.
-,ntp,NTFS filesystem driver and utilities
-,openssh,Network Time Protocol reference implementation
-,openssl,Premier connectivity tool for remote login with the SSH protocol
+,mkinitcpio,Modular initramfs image creation utility
+,mlocate,Merging locate/updatedb implementation
+,mps-youtube,Terminal based YouTube jukebox with playlist management
+,mpv,a free open source and cross-platform media player
+,nano,Pico editor clone with enhancements
+,nautilus,Default file manager for GNOME
+,neofetch,A CLI system information tool written in BASH that supports displaying images.
+,netctl,Profile based systemd network management
+,network-manager-applet,Applet for managing network connections
+,networkmanager,Network connection manager and user applications
+,newsboat,An RSS/Atom feed reader for text terminals
+,nilfs-utils,A log-structured file system supporting continuous snapshotting (userspace utils)
+,nnn,The fastest terminal file manager ever written.
+,ntfs-3g,NTFS filesystem driver and utilities
+,ntp,Network Time Protocol reference implementation
+,openssh,Premier connectivity tool for remote login with the SSH protocol
 ,os-prober,Utility to detect other OSes on a set of drives
 ,pandoc,Conversion between markup formats
 ,parted,A program for creating destroying resizing checking and copying partitions
