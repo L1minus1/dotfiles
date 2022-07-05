@@ -79,112 +79,113 @@
 ,nnn,The fastest terminal file manager ever written.
 ,ntfs-3g,NTFS filesystem driver and utilities
 ,ntp,Network Time Protocol reference implementation
-,openssh,Premier connectivity tool for remote login with the SSH protocol
-,os-prober,Utility to detect other OSes on a set of drives
-,pandoc,Conversion between markup formats
-,parted,A program for creating destroying resizing checking and copying partitions
-,patch,A utility to apply patch files to original sources
-,pavucontrol,PulseAudio Volume Control
-,picom,X compositor that may fix tearing issues
-,polkit-gnome,Legacy polkit authentication agent for GNOME
-,polybar,A fast and easy-to-use status bar
-,powerline-fonts,patched fonts for powerline
-,ppp,A daemon which implements the Point-to-Point Protocol for dial-up networking
-,pulseaudio,A featureful general-purpose sound server
-,pulseaudio-alsa,ALSA Configuration for PulseAudio
-,pulseaudio-bluetooth,Bluetooth support for PulseAudio
-,python-pip,The PyPA recommended tool for installing Python packages
-,r,Language and environment for statistical computing and graphics
-,ranger,Simple vim-like file manager
-,rclone,Sync files to and from Google Drive S3 Swift Cloudfiles Dropbox and Google Cloud Storage
-,redshift,Adjusts the color temperature of your screen according to your surroundings.
-,reflector,A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-,reiserfsprogs,Reiserfs utilities
-,rofi,A window switcher application launcher and dmenu replacement
-,rsync,A fast and versatile file copying tool for remote and local files
-,rxvt-unicode,Unicode enabled rxvt-clone terminal emulator (urxvt)
-,s-nail,Environment for sending and receiving mail
-,scrot,Simple command-line screenshot utility for X
-,sof-firmware,Sound Open Firmware
-,speedtest-cli,Command line interface for testing internet bandwidth using speedtest.net
-,steam,Valve's digital software delivery system
-,stow,Manage installation of multiple softwares in the same directory tree
-,sudo,Give certain users the ability to run some commands as root
-,texinfo,GNU documentation system for on-line information and printed output
-,texlive-bibtexextra,TeX Live - Additional BibTeX styles and bibliography databases
-,texlive-fontsextra,TeX Live - all sorts of extra fonts
-,texlive-formatsextra,TeX Live - collection of extra TeX 'formats'
-,texlive-games,TeX Live - Setups for typesetting various board games including chess
-,texlive-humanities,TeX Live - LaTeX packages for law linguistics social sciences and humanities
-,texlive-music,TeX Live - Music typesetting packages
-,texlive-pictures,TeX Live - Packages for drawings graphics
-,texlive-pstricks,TeX Live - Additional PSTricks packages
-,texlive-publishers,TeX Live - LaTeX classes and packages for specific publishers
-,texlive-science,TeX Live - Typesetting for mathematics natural and computer sciences
-,tk,A windowing toolkit for use with tcl
-,ttf-dejavu,Font family based on the Bitstream Vera Fonts with a wider range of characters
-,ttf-font-awesome,Iconic font designed for Bootstrap
-,ttf-joypixels,Emoji as a Service (formerly EmojiOne)
-,unrar,The RAR uncompression program
-,usbutils,A collection of USB tools to query connected USB devices
-,vi,The original ex/vi text editor
-,vim,Vi Improved a highly configurable improved version of the vi text editor
-,w3m,Text-based Web browser as well as pager
-,wget,Network utility to retrieve files from the Web
-,which,A utility to show the full path of commands
-,wine,A compatibility layer for running Windows programs
-,winetricks,Script to install various redistributable runtime libraries in Wine.
-,wireless_tools,Tools allowing to manipulate the Wireless Extensions
-,wpa_supplicant,A utility providing key negotiation for WPA wireless networks
-,xaos,Interactive fractal zoomer
-,xclip,Command line interface to the X11 clipboard
-,xdg-user-dirs,Manage user directories like ~/Desktop and ~/Music
-,xf86-input-evdev,X.org evdev input driver
-,xf86-input-synaptics,Synaptics driver for notebook touchpads
-,xf86-input-vmmouse,X.org VMWare Mouse input driver
-,xf86-input-void,X.org void input driver
-,xf86-video-amdgpu,X.org amdgpu video driver
-,xf86-video-ati,X.org ati video driver
-,xf86-video-dummy,X.org dummy video driver
-,xf86-video-fbdev,X.org framebuffer video driver
-,xf86-video-intel,X.org Intel i810/i830/i915/945G/G965+ video drivers
-,xf86-video-nouveau,Open Source 3D acceleration driver for nVidia cards
-,xf86-video-openchrome,X.Org Openchrome drivers
-,xf86-video-qxl,Xorg X11 qxl video driver
-,xf86-video-vesa,X.org vesa video driver
-,xf86-video-vmware,X.org vmware video driver
-,xf86-video-voodoo,X.org 3dfx Voodoo1/Voodoo2 2D video driver
-,xorg-bdftopcf,Convert X font from Bitmap Distribution Format to Portable Compiled Format
-,xorg-fonts-misc,X.org misc fonts
-,xorg-iceauth,ICE authority file utility
-,xorg-server,Xorg X server
-,xorg-sessreg,Register X sessions in system utmp/utmpx databases
-,xorg-smproxy,Allows X applications that do not support X11R6 session management to participate in an X11R6 session
-,xorg-twm,Tab Window Manager for the X Window System
-,xorg-x11perf,Simple X server performance benchmarker
-,xorg-xauth,X.Org authorization settings program
-,xorg-xcmsdb,Device Color Characterization utility for X Color Management System
-,xorg-xcursorgen,Create an X cursor file from PNG images
-,xorg-xdriinfo,Query configuration information of DRI drivers
-,xorg-xev,Print contents of X events
-,xorg-xgamma,Alter a monitor's gamma correction
-,xorg-xhost,Server access control program for X
-,xorg-xinit,X.Org initialisation program
-,xorg-xinput,Small commandline tool to configure devices
-,xorg-xkbevd,XKB event daemon
-,xorg-xkbutils,XKB utility demos
-,xorg-xkill,Kill a client by its X resource
-,xorg-xlsatoms,List interned atoms defined on server
-,xorg-xlsclients,List client applications running on a display
-,xorg-xpr,Print an X window dump from xwd
-,xorg-xrandr,Primitive command line interface to RandR extension
-,xorg-xrefresh,Refresh all or part of an X screen
-,xorg-xsetroot,Classic X utility to set your root window background to a given pattern or color
-,xorg-xvinfo,Prints out the capabilities of any video adaptors associated with the display that are accessible through the X-Video extension
-,xorg-xwd,X Window System image dumping utility
-,xorg-xwininfo,Command-line utility to print information about windows on an X server
-,xorg-xwud,X Window System image undumping utility
-,zsh,A very advanced and programmable command interpreter (shell) for UNIX
+,openmpi,Premier connectivity tool for remote login with the SSH protocol
+,openssh,Utility to detect other OSes on a set of drives
+,os-prober,Conversion between markup formats
+,pandoc,A program for creating destroying resizing checking and copying partitions
+,parted,A utility to apply patch files to original sources
+,patch,PulseAudio Volume Control
+,pavucontrol,X compositor that may fix tearing issues
+,picom,Legacy polkit authentication agent for GNOME
+,polkit-gnome,A fast and easy-to-use status bar
+,polybar,patched fonts for powerline
+,powerline-fonts,A daemon which implements the Point-to-Point Protocol for dial-up networking
+,ppp,A featureful general-purpose sound server
+,pulseaudio,ALSA Configuration for PulseAudio
+,pulseaudio-alsa,Bluetooth support for PulseAudio
+,pulseaudio-bluetooth,The PyPA recommended tool for installing Python packages
+,python-pip,Language and environment for statistical computing and graphics
+,r,Simple vim-like file manager
+,ranger,Sync files to and from Google Drive S3 Swift Cloudfiles Dropbox and Google Cloud Storage
+,rclone,Adjusts the color temperature of your screen according to your surroundings.
+,redshift,A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+,reflector,Reiserfs utilities
+,reiserfsprogs,A window switcher application launcher and dmenu replacement
+,rofi,A fast and versatile file copying tool for remote and local files
+,rsync,Unicode enabled rxvt-clone terminal emulator (urxvt)
+,rxvt-unicode,Environment for sending and receiving mail
+,s-nail,Simple command-line screenshot utility for X
+,scrot,Sound Open Firmware
+,sof-firmware,Command line interface for testing internet bandwidth using speedtest.net
+,speedtest-cli,Valve's digital software delivery system
+,steam,Manage installation of multiple softwares in the same directory tree
+,stow,Give certain users the ability to run some commands as root
+,sudo,GNU documentation system for on-line information and printed output
+,texinfo,TeX Live - Additional BibTeX styles and bibliography databases
+,texlive-bibtexextra,TeX Live - all sorts of extra fonts
+,texlive-fontsextra,TeX Live - collection of extra TeX 'formats'
+,texlive-formatsextra,TeX Live - Setups for typesetting various board games including chess
+,texlive-games,TeX Live - LaTeX packages for law linguistics social sciences and humanities
+,texlive-humanities,TeX Live - Music typesetting packages
+,texlive-music,TeX Live - Packages for drawings graphics
+,texlive-pictures,TeX Live - Additional PSTricks packages
+,texlive-pstricks,TeX Live - LaTeX classes and packages for specific publishers
+,texlive-publishers,TeX Live - Typesetting for mathematics natural and computer sciences
+,texlive-science,A windowing toolkit for use with tcl
+,tk,Font family based on the Bitstream Vera Fonts with a wider range of characters
+,ttf-dejavu,Iconic font designed for Bootstrap
+,ttf-font-awesome,Emoji as a Service (formerly EmojiOne)
+,ttf-joypixels,The RAR uncompression program
+,unrar,A collection of USB tools to query connected USB devices
+,usbutils,The original ex/vi text editor
+,vi,Vi Improved a highly configurable improved version of the vi text editor
+,vim,Text-based Web browser as well as pager
+,w3m,Network utility to retrieve files from the Web
+,wget,A utility to show the full path of commands
+,which,A compatibility layer for running Windows programs
+,wine,Script to install various redistributable runtime libraries in Wine.
+,winetricks,Tools allowing to manipulate the Wireless Extensions
+,wireless_tools,A utility providing key negotiation for WPA wireless networks
+,wpa_supplicant,Interactive fractal zoomer
+,xaos,Command line interface to the X11 clipboard
+,xclip,Manage user directories like ~/Desktop and ~/Music
+,xdg-user-dirs,X.org evdev input driver
+,xf86-input-evdev,Synaptics driver for notebook touchpads
+,xf86-input-synaptics,X.org VMWare Mouse input driver
+,xf86-input-vmmouse,X.org void input driver
+,xf86-input-void,X.org amdgpu video driver
+,xf86-video-amdgpu,X.org ati video driver
+,xf86-video-ati,X.org dummy video driver
+,xf86-video-dummy,X.org framebuffer video driver
+,xf86-video-fbdev,X.org Intel i810/i830/i915/945G/G965+ video drivers
+,xf86-video-intel,Open Source 3D acceleration driver for nVidia cards
+,xf86-video-nouveau,X.Org Openchrome drivers
+,xf86-video-openchrome,Xorg X11 qxl video driver
+,xf86-video-qxl,X.org vesa video driver
+,xf86-video-vesa,X.org vmware video driver
+,xf86-video-vmware,X.org 3dfx Voodoo1/Voodoo2 2D video driver
+,xf86-video-voodoo,Convert X font from Bitmap Distribution Format to Portable Compiled Format
+,xorg-bdftopcf,X.org misc fonts
+,xorg-fonts-misc,ICE authority file utility
+,xorg-iceauth,Xorg X server
+,xorg-server,Register X sessions in system utmp/utmpx databases
+,xorg-sessreg,Allows X applications that do not support X11R6 session management to participate in an X11R6 session
+,xorg-smproxy,Tab Window Manager for the X Window System
+,xorg-twm,Simple X server performance benchmarker
+,xorg-x11perf,X.Org authorization settings program
+,xorg-xauth,Device Color Characterization utility for X Color Management System
+,xorg-xcmsdb,Create an X cursor file from PNG images
+,xorg-xcursorgen,Query configuration information of DRI drivers
+,xorg-xdriinfo,Print contents of X events
+,xorg-xev,Alter a monitor's gamma correction
+,xorg-xgamma,Server access control program for X
+,xorg-xhost,X.Org initialisation program
+,xorg-xinit,Small commandline tool to configure devices
+,xorg-xinput,XKB event daemon
+,xorg-xkbevd,XKB utility demos
+,xorg-xkbutils,Kill a client by its X resource
+,xorg-xkill,List interned atoms defined on server
+,xorg-xlsatoms,List client applications running on a display
+,xorg-xlsclients,Print an X window dump from xwd
+,xorg-xpr,Primitive command line interface to RandR extension
+,xorg-xrandr,Refresh all or part of an X screen
+,xorg-xrefresh,Classic X utility to set your root window background to a given pattern or color
+,xorg-xsetroot,Prints out the capabilities of any video adaptors associated with the display that are accessible through the X-Video extension
+,xorg-xvinfo,X Window System image dumping utility
+,xorg-xwd,Command-line utility to print information about windows on an X server
+,xorg-xwininfo,X Window System image undumping utility
+,xorg-xwud,A very advanced and programmable command interpreter (shell) for UNIX
+,zsh,
 A,betterlockscreen,A simple minimal lockscreen
 A,clight,A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature dim your screen and set your dpms.
 A,etcher-bin,Flash OS images to SD cards & USB drives safely and easily
