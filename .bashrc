@@ -6,6 +6,7 @@
 	alias ss="sudo systemctl"
 	alias yt="mpsyt"
 	alias 6cord="6cord -t MjQ2MzcyMjA5MTU1NjM3MjQ4.XPXuLQ.nmCbixe8ga2GvTm9yoFyHqw8QAk"
+	alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 #Dotfile Management
 	alias df="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
 		##how to use:
@@ -21,6 +22,10 @@
 	alias cfx="vim ~/.xinitrc"
 #Suckless Aliases 
 	alias cst="sudo make install -C ~/suckless/st/"
+#Quick Access
+	alias school="cd ~/school"
+
+
 #A E S T H E T I C
 	neofetch --source ~/.alphabets/ARASAKA.txt
 #Environment Variables
