@@ -66,7 +66,6 @@
 ,man-pages,Linux man pages
 ,mkinitcpio,Modular initramfs image creation utility
 ,mlocate,Merging locate/updatedb implementation
-,mps-youtube,Terminal based YouTube jukebox with playlist management
 ,mpv,a free open source and cross-platform media player
 ,nano,Pico editor clone with enhancements
 ,nautilus,Default file manager for GNOME
@@ -196,6 +195,7 @@ A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support suppor
 A,libxft-bgra-git,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
 A,mcmojave-cursors,x-cursor theme inspired by macOS and based on capitaine-cursors
 A,moonlight-qt,GameStream client for PCs (Windows Mac and Linux)
+A,mps-youtube,Terminal based YouTube jukebox with playlist management
 A,pa-applet-git,PulseAudio control applet
 A,paru,Feature packed AUR helper
 A,qogir-gtk-theme-git,Qogir is a flat Design theme for GTK
