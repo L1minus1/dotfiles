@@ -166,6 +166,10 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+#Sync Clock
+exec_always timedatectl set-timezone America/Los_Angeles
+exec_always timedatectl set-ntp true
+
 #Apply Xresources
 exec_always xrdb ~/.Xresources
 
@@ -198,8 +202,8 @@ bindsym $mod+shift+f exec konsole -e ranger
 #exec_always blueman-applet
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q sset 'Master' 5%+ #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q sset 'Master' 5%- #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
