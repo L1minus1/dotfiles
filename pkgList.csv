@@ -37,10 +37,9 @@
 ,gcc,The GNU Compiler Collection - C and C++ frontends
 ,gedit,GNOME Text Editor
 ,gnome-keyring,Stores passwords and encryption keys
-,go,A Partition Magic clone frontend to GNU Parted
-,gparted,A mouse server for the console and xterm
-,gpm,GNU GRand Unified Bootloader (2)
-,grub,None
+,gparted,A Partition Magic clone frontend to GNU Parted
+,gpm,A mouse server for the console and xterm
+,grub,GNU GRand Unified Bootloader (2)
 ,gvfs,Virtual filesystem implementation for GIO
 ,htop,Interactive process viewer
 ,i3-gaps,A fork of i3wm tiling window manager with more features including gaps
@@ -94,6 +93,7 @@
 ,pulseaudio-alsa,ALSA Configuration for PulseAudio
 ,pulseaudio-bluetooth,Bluetooth support for PulseAudio
 ,python-pip,The PyPA recommended tool for installing Python packages
+,python-pyqt5,None
 ,r,Language and environment for statistical computing and graphics
 ,ranger,Simple vim-like file manager
 ,rclone,Sync files to and from Google Drive S3 Swift Cloudfiles Dropbox and Google Cloud Storage
