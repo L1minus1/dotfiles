@@ -49,6 +49,7 @@
 ,intel-ucode,Microcode update files for Intel CPUs
 ,jfsutils,JFS filesystem utilities
 ,jq,Command-line JSON processor
+,keepassxc,Cross-platform community-driven port of Keepass password manager
 ,kitty,A modern hackable featureful OpenGL-based terminal emulator
 ,libreoffice-fresh,LibreOffice branch which contains new features and program enhancements
 ,libva-mesa-driver,VA-API implementation for gallium
