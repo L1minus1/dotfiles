@@ -77,6 +77,7 @@
 ,newsboat,An RSS/Atom feed reader for text terminals
 ,nilfs-utils,A log-structured file system supporting continuous snapshotting (userspace utils)
 ,nnn,The fastest terminal file manager ever written.
+,notepadqq,Notepad++-like text editor for Linux
 ,ntfs-3g,NTFS filesystem driver and utilities
 ,ntp,Network Time Protocol reference implementation
 ,openssh,Premier connectivity tool for remote login with the SSH protocol
