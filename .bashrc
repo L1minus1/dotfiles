@@ -1,5 +1,6 @@
 #Aliases
 #Abrieviations
+	alias untar="tar zxvf"
 	alias ub='clight --ambient-gamma' #manually calibrate brightness
 	alias ls='ls --color=auto' #ls colors
 	alias p="sudo pacman" 
@@ -13,7 +14,6 @@
 		#$df add <config file>
 		#$df commit -m "useful message"
 		#$df push
-
 #Config Aliases
 	alias cfp="vim ~/.config/polybar/config"
 	alias cfi3="vim ~/.config/i3/config"
