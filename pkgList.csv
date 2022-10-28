@@ -205,6 +205,7 @@ A,paru,Feature packed AUR helper
 A,qogir-gtk-theme-git,Qogir is a flat Design theme for GTK
 A,siji,Iconic bitmap font based on stlarch with additional glyphs
 A,surf,A simple web browser based on WebKit/GTK+.
+A,syncthing-gtk-python3,GTK3 based GUI and notification area icon for Syncthing. Python 3 port with Debian sources.
 A,tela-circle-icon,A flat colorful design icon theme
 A,ttf-font-awesome-4,100% free version of font awesome.
 A,ttf-symbola,Font for symbol blocks of the Unicode Standard (TTF)
