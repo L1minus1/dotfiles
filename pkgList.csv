@@ -131,6 +131,7 @@
 ,usbutils,A collection of USB tools to query connected USB devices
 ,vi,The original ex/vi text editor
 ,vim,Vi Improved a highly configurable improved version of the vi text editor
+,vlc,Multi-platform MPEG VCD/DVD and DivX player
 ,w3m,Text-based Web browser as well as pager
 ,wget,Network utility to retrieve files from the Web
 ,which,A utility to show the full path of commands
