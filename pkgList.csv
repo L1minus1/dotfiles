@@ -55,7 +55,7 @@
 ,libva-mesa-driver,VA-API implementation for gallium
 ,lightdm,A lightweight display manager
 ,lightdm-gtk-greeter,GTK+ greeter for LightDM
-,linux,None
+,linux,The Linux kernel and modules
 ,linux-firmware,Firmware files for Linux
 ,logrotate,Rotates system logs automatically
 ,luit,Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
@@ -80,7 +80,7 @@
 ,notepadqq,Notepad++-like text editor for Linux
 ,ntfs-3g,NTFS filesystem driver and utilities
 ,ntp,Network Time Protocol reference implementation
-,openssh,Premier connectivity tool for remote login with the SSH protocol
+,openssh,SSH protocol implementation for remote login command execution and file transfer
 ,os-prober,Utility to detect other OSes on a set of drives
 ,pandoc,Conversion between markup formats
 ,parted,A program for creating destroying resizing checking and copying partitions
