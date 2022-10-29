@@ -23,14 +23,14 @@
 ,dhcpcd,RFC2131 compliant DHCP client daemon
 ,dialog,A tool to display dialog boxes from shell scripts
 ,diffutils,Utility programs used for creating patch files
-,discord,All-in-one voice and text chat for gamers that's free and secure.
+,discord,All-in-one voice and text chat for gamers
 ,dmidecode,Desktop Management Interface table related utilities
 ,dnsmasq,Lightweight easy to configure DNS forwarder and DHCP server
 ,e2fsprogs,Ext2/3/4 filesystem utilities
 ,efibootmgr,Linux user-space application to modify the EFI Boot Manager
 ,fakeroot,Tool for simulating superuser privileges
 ,feh,Fast and light imlib2-based image viewer
-,firefox,Standalone web browser from mozilla.org
+,firefox,None
 ,firefox-i18n-en-us,English (US) language pack for Firefox
 ,flatpak,Linux application sandboxing and distribution framework (formerly xdg-app)
 ,flex,A tool for generating text-scanning programs
