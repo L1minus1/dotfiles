@@ -30,7 +30,7 @@
 ,efibootmgr,Linux user-space application to modify the EFI Boot Manager
 ,fakeroot,Tool for simulating superuser privileges
 ,feh,Fast and light imlib2-based image viewer
-,firefox,None
+,firefox,Standalone web browser from mozilla.org
 ,firefox-i18n-en-us,English (US) language pack for Firefox
 ,flatpak,Linux application sandboxing and distribution framework (formerly xdg-app)
 ,flex,A tool for generating text-scanning programs
@@ -55,7 +55,7 @@
 ,libva-mesa-driver,VA-API implementation for gallium
 ,lightdm,A lightweight display manager
 ,lightdm-gtk-greeter,GTK+ greeter for LightDM
-,linux,The Linux kernel and modules
+,linux,None
 ,linux-firmware,Firmware files for Linux
 ,logrotate,Rotates system logs automatically
 ,luit,Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
