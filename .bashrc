@@ -1,5 +1,6 @@
 #Aliases
 #Abrieviations
+	alias fp="flashplayer"
 	alias untar="tar zxvf"
 	alias ub='clight --ambient-gamma' #manually calibrate brightness
 	alias ls='ls --color=auto' #ls colors
