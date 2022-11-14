@@ -51,14 +51,16 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = FontAwesome:size=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-0 = fixed:pixelsize=10;1
+font-1 = FontAwesome:size=10;1
 font-2 = siji:pixelsize=10;1
-font-3 = fixed:pixelsize=10;1
+font-3 = unifont:fontformat=truetype:size=8:antialias=false;0
+
+
 
 modules-left = bspwm i3
 modules-center = xwindow
-modules-right = packages homesystem filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = homesystem filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -77,12 +79,6 @@ tray-padding = 2
 
 cursor-click = pointer
 cursor-scroll = ns-resize
-
-[module/packages]
-type = custom/script
-exec = listGenerator | awk '{print "P "$0 }'
-tail = true
-interval = 5
 
 [module/xwindow]
 type = internal/xwindow
