@@ -188,28 +188,28 @@
 ,xorg-xwininfo,Command-line utility to print information about windows on an X server
 ,xorg-xwud,X Window System image undumping utility
 ,zsh,A very advanced and programmable command interpreter (shell) for UNIX
-A,,A simple minimal lockscreen
-A,,A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature dim your screen and set your dpms.
-A,,Flash OS images to SD cards & USB drives safely and easily
-A,,Adobe Flash Player Standalone (A.K.A. Adobe Flash Player Projector)
-A,,Adobe Flash Player NPAPI
-A,,Growl for Linux
-A,,Power saving tool for Linux
-A,,A lightweight xcb based bar with ported xft support support to specify outputs support for unlimited clickable areas and support for longer input.
-A,,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
-A,,x-cursor theme inspired by macOS and based on capitaine-cursors
-A,,GameStream client for PCs (Windows Mac and Linux)
-A,,Terminal based YouTube jukebox with playlist management
-A,,PulseAudio control applet
-A,,Remotely connect to a gaming pc for a low latency remote computing experience
-A,,Feature packed AUR helper
-A,,Qogir is a flat Design theme for GTK
-A,,Iconic bitmap font based on stlarch with additional glyphs
-A,,A simple web browser based on WebKit/GTK+.
-A,,GTK3 based GUI and notification area icon for Syncthing. Python 3 port with Debian sources.
-A,,A flat colorful design icon theme
-A,,100% free version of font awesome.
-A,,Font for symbol blocks of the Unicode Standard (TTF)
-A,,TrueType version of the GNU Unifont
-A,,Yet another yogurt. Pacman wrapper and AUR helper written in go.
-A,,Video Conferencing and Web Conferencing Service
+A,betterlockscreen,A simple minimal lockscreen
+A,clight,A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature dim your screen and set your dpms.
+A,etcher-bin,Flash OS images to SD cards & USB drives safely and easily
+A,flashplayer-standalone,Adobe Flash Player Standalone (A.K.A. Adobe Flash Player Projector)
+A,flashplugin,Adobe Flash Player NPAPI
+A,growl-for-linux,Growl for Linux
+A,laptop-mode-tools,Power saving tool for Linux
+A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support support to specify outputs support for unlimited clickable areas and support for longer input.
+A,libxft-bgra-git,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
+A,mcmojave-cursors,x-cursor theme inspired by macOS and based on capitaine-cursors
+A,moonlight-qt,GameStream client for PCs (Windows Mac and Linux)
+A,mps-youtube,Terminal based YouTube jukebox with playlist management
+A,pa-applet-git,PulseAudio control applet
+A,parsec-bin,Remotely connect to a gaming pc for a low latency remote computing experience
+A,paru,Feature packed AUR helper
+A,qogir-gtk-theme-git,Qogir is a flat Design theme for GTK
+A,siji,Iconic bitmap font based on stlarch with additional glyphs
+A,surf,A simple web browser based on WebKit/GTK+.
+A,syncthing-gtk-python3,GTK3 based GUI and notification area icon for Syncthing. Python 3 port with Debian sources.
+A,tela-circle-icon,A flat colorful design icon theme
+A,ttf-font-awesome-4,100% free version of font awesome.
+A,ttf-symbola,Font for symbol blocks of the Unicode Standard (TTF)
+A,ttf-unifont,TrueType version of the GNU Unifont
+A,yay,Yet another yogurt. Pacman wrapper and AUR helper written in go.
+A,zoom,Video Conferencing and Web Conferencing Service
