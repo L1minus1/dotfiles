@@ -124,6 +124,7 @@
 ,texlive-publishers,TeX Live - LaTeX classes and packages for specific publishers
 ,texlive-science,TeX Live - Typesetting for mathematics natural and computer sciences
 ,tk,A windowing toolkit for use with tcl
+,tor,Anonymizing overlay network.
 ,ttf-dejavu,Font family based on the Bitstream Vera Fonts with a wider range of characters
 ,ttf-font-awesome,Iconic font designed for Bootstrap
 ,ttf-joypixels,Emoji as a Service (formerly EmojiOne)
@@ -208,6 +209,7 @@ A,siji,Iconic bitmap font based on stlarch with additional glyphs
 A,surf,A simple web browser based on WebKit/GTK+.
 A,syncthing-gtk-python3,GTK3 based GUI and notification area icon for Syncthing. Python 3 port with Debian sources.
 A,tela-circle-icon,A flat colorful design icon theme
+A,tor-browser,Tor Browser Bundle: anonymous browsing using Firefox and Tor (international PKGBUILD)
 A,ttf-font-awesome-4,100% free version of font awesome.
 A,ttf-symbola,Font for symbol blocks of the Unicode Standard (TTF)
 A,ttf-unifont,TrueType version of the GNU Unifont
