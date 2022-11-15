@@ -34,6 +34,7 @@
 ,firefox-i18n-en-us,English (US) language pack for Firefox
 ,flatpak,Linux application sandboxing and distribution framework (formerly xdg-app)
 ,flex,A tool for generating text-scanning programs
+,fzf,Command-line fuzzy finder
 ,gcc,The GNU Compiler Collection - C and C++ frontends
 ,gedit,GNOME Text Editor
 ,gnome-keyring,Stores passwords and encryption keys
@@ -201,6 +202,7 @@ A,libxft-bgra-git,libXft with BGRA glyph (color emoji) rendering & scaling patch
 A,mcmojave-cursors,x-cursor theme inspired by macOS and based on capitaine-cursors
 A,moonlight-qt,GameStream client for PCs (Windows Mac and Linux)
 A,mps-youtube,Terminal based YouTube jukebox with playlist management
+A,openpyn-nordvpn,Easily connect to and switch between OpenVPN servers hosted by NordVPN
 A,pa-applet-git,PulseAudio control applet
 A,parsec-bin,Remotely connect to a gaming pc for a low latency remote computing experience
 A,paru,Feature packed AUR helper
