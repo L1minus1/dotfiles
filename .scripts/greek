@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Read the input file into an array
+mapfile -t lines < ~/.alphabets/greek
+
+# Extract the third column and put it into a new array
+column3=()
+for line in "${lines[@]}"; do
+    column3+=("$(echo "$line" | cut -f3)")
+done
+
+# Use dmenu to let the user select a value from the third column
+selected=$(echo "${column3[@]}" | tr ' ' '\n' | dmenu)
+
+# Find the corresponding value from the first column
+for line in "${lines[@]}"; do
+    if [ "$(echo "$line" | cut -f3)" = "$selected" ]; then
+        printf "$line" | cut -f1 | xclip -selection clipboard
+        notify-send "'$chosen' copied to clipboard."
+	exit
+    fi
+done
