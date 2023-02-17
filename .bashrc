@@ -23,10 +23,9 @@
 	alias cfx="vim ~/.xinitrc"
 #Suckless Aliases 
 	alias cst="sudo make install -C ~/suckless/st/"
-#Quick Access
-	alias school="cd ~/school"
 
-
+#Windows Programs
+	alias npp="wine /home/l/.wine/drive_c/"Program Files"/Notepad++/notepad++.exe"
 #A E S T H E T I C
 	neofetch --source ~/.alphabets/ARASAKA.txt
 #Environment Variables
