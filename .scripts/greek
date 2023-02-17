@@ -15,8 +15,8 @@ selected=$(echo "${column3[@]}" | tr ' ' '\n' | dmenu)
 # Find the corresponding value from the first column
 for line in "${lines[@]}"; do
     if [ "$(echo "$line" | cut -f3)" = "$selected" ]; then
-        printf "$line" | cut -f1 | xclip -selection clipboard
-        notify-send "'$chosen' copied to clipboard."
+        printf "$line" | cut -f1 |tr -d [:space:] | xclip -selection clipboard
+        notify-send "'$selected' copied to clipboard."
 	exit
     fi
 done
