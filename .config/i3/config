@@ -166,6 +166,10 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+#greek alphabet menu
+bindsym $mod+g lgreek
+bindsym $mod+shift+g ugreek
+
 #Sync Clock
 exec_always timedatectl set-timezone America/Los_Angeles
 exec_always timedatectl set-ntp true
