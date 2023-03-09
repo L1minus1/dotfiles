@@ -184,6 +184,9 @@ gaps outer 5
 #polybar
 exec_always pkill polybar ; polybar -r example
 
+#bluetooth applet
+exec_always blueman-applet
+
 #Firefox
 bindsym $mod+b exec chromium
 
