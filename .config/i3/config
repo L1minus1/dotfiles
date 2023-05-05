@@ -167,8 +167,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #greek alphabet menu
-bindsym $mod+g lgreek
-bindsym $mod+shift+g ugreek
+bindsym $mod+g exec lgreek
+bindsym $mod+shift+g exec ugreek
 
 #Sync Clock
 exec_always timedatectl set-timezone America/Los_Angeles
@@ -219,6 +219,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+
+# Subscript hotkey
+bindsym exec ~/.scripts/subscript
 
 #Remove titlebar
 for_window [class="^.*"] border pixel 1
