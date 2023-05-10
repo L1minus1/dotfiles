@@ -9,6 +9,7 @@
 	alias yt="mpsyt"
 	alias 6cord="6cord -t MjQ2MzcyMjA5MTU1NjM3MjQ4.XPXuLQ.nmCbixe8ga2GvTm9yoFyHqw8QAk"
 	alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+	alias fixpacman="sudo rm /var/lib/pacman/db.lck"
 #Dotfile Management
 	alias df="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
 		##how to use:
