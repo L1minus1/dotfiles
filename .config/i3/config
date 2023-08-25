@@ -187,8 +187,8 @@ exec_always pkill polybar ; polybar -r example
 #bluetooth applet
 exec_always blueman-applet
 
-#Firefox
-bindsym $mod+b exec chromium
+#Brave
+bindsym $mod+b exec brave
 
 #nm-applet
 exec_always nm-applet
