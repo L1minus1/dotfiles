@@ -1,5 +1,8 @@
 #Aliases
 #Abrieviations
+	alias x="startx"
+	alias sw="setsid -f"
+	alias rs="redshift -l 33.907820:-117.780380"
 	alias fp="flashplayer"
 	alias untar="tar zxvf"
 	alias ub='clight --ambient-gamma' #manually calibrate brightness
