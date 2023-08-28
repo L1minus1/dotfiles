@@ -17,7 +17,6 @@
 ,blueman,GTK+ Bluetooth Manager
 ,bluez-tools,A set of tools to manage Bluetooth devices for Linux
 ,bluez-utils,Development and debugging utilities for the bluetooth protocol stack
-,chromium,A web browser built for speed simplicity and security
 ,cronie,Daemon that runs specified programs at scheduled times and related tools
 ,cryptsetup,Userspace setup tool for transparent encryption of block devices using dm-crypt
 ,darktable,Utility to organize and develop raw images
@@ -27,11 +26,15 @@
 ,dialog,A tool to display dialog boxes from shell scripts
 ,diffutils,Utility programs used for creating patch files
 ,discord,All-in-one voice and text chat for gamers
+,distrobox,Use any linux distribution inside your terminal.
 ,dmidecode,Desktop Management Interface table related utilities
 ,dnsmasq,Lightweight easy to configure DNS forwarder and DHCP server
+,docker,Pack ship and run any application as a lightweight container
+,dolphin,KDE File Manager
 ,dunst,Customizable and lightweight notification-daemon
 ,e2fsprogs,Ext2/3/4 filesystem utilities
 ,efibootmgr,Linux user-space application to modify the EFI Boot Manager
+,exfat-utils,Utilities for exFAT file system
 ,fakeroot,Tool for simulating superuser privileges
 ,feh,Fast and light imlib2-based image viewer
 ,firefox,Standalone web browser from mozilla.org
@@ -58,6 +61,19 @@
 ,kitty,A modern hackable featureful OpenGL-based terminal emulator
 ,ktorrent,A powerful BitTorrent client for KDE
 ,kvantum,SVG-based theme engine for Qt5/6 (including config tool and extra themes)
+,lib32-giflib,Library for reading and writing gif images
+,lib32-gnutls,A library which provides a secure layer over a reliable transport layer (32-bit)
+,lib32-gst-plugins-base-libs,Multimedia graph framework (32-bit) - base
+,lib32-gtk3,GObject-based multi-platform GUI toolkit
+,lib32-libpulse,A featureful general-purpose sound server (32-bit client libraries)
+,lib32-libva,Video Acceleration (VA) API for Linux (32-bit)
+,lib32-libxcomposite,X11 Composite extension library (32-bit)
+,lib32-libxinerama,X11 Xinerama extension library (32-bit)
+,lib32-libxslt,XML stylesheet transformation library (32-bit)
+,lib32-mpg123,A console based real time MPEG Audio Player for Layer 1 2 and 3 (32-bit)
+,lib32-ocl-icd,OpenCL ICD Bindings (32-bit)
+,lib32-openal,Cross-platform 3D audio library software implementation (32-bit)
+,lib32-v4l-utils,Userspace tools and conversion library for Video 4 Linux (32-bit)
 ,libreoffice-fresh,LibreOffice branch which contains new features and program enhancements
 ,libva-mesa-driver,VA-API drivers
 ,lightdm,A lightweight display manager
@@ -66,6 +82,7 @@
 ,linux-firmware,Firmware files for Linux
 ,logrotate,Rotates system logs automatically
 ,luit,Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+,lutris,Open Gaming Platform
 ,lxappearance,Feature-rich GTK+ theme switcher of the LXDE Desktop
 ,lxterminal,VTE-based terminal emulator (part of LXDE)
 ,m4,The GNU macro processor
@@ -96,6 +113,7 @@
 ,patch,A utility to apply patch files to original sources
 ,pavucontrol,PulseAudio Volume Control
 ,picom,X compositor that may fix tearing issues
+,podman,Tool and library for running OCI-based containers in pods
 ,polkit-gnome,Legacy polkit authentication agent for GNOME
 ,polybar,A fast and easy-to-use status bar
 ,powerline-fonts,patched fonts for powerline
@@ -123,16 +141,16 @@
 ,sudo,Give certain users the ability to run some commands as root
 ,syncthing,Open Source Continuous Replication / Cluster Synchronization Thing
 ,texinfo,GNU documentation system for on-line information and printed output
-,texlive-bibtexextra,TeX Live - Additional BibTeX styles and bibliography databases
-,texlive-fontsextra,TeX Live - all sorts of extra fonts
-,texlive-formatsextra,TeX Live - collection of extra TeX 'formats'
-,texlive-games,TeX Live - Setups for typesetting various board games including chess
-,texlive-humanities,TeX Live - LaTeX packages for law linguistics social sciences and humanities
-,texlive-music,TeX Live - Music typesetting packages
-,texlive-pictures,TeX Live - Packages for drawings graphics
-,texlive-pstricks,TeX Live - Additional PSTricks packages
-,texlive-publishers,TeX Live - LaTeX classes and packages for specific publishers
-,texlive-science,TeX Live - Typesetting for mathematics natural and computer sciences
+,texlive-bibtexextra,TeX Live - BibTeX additional styles
+,texlive-fontsextra,TeX Live - Additional fonts
+,texlive-formatsextra,TeX Live - Additional formats
+,texlive-games,TeX Live - Games typesetting
+,texlive-humanities,TeX Live - Humanities packages
+,texlive-mathscience,TeX Live - Mathematics natural sciences computer science packages
+,texlive-music,TeX Live - Music packages
+,texlive-pictures,TeX Live - Graphics pictures diagrams
+,texlive-pstricks,TeX Live - PSTricks
+,texlive-publishers,TeX Live - Publisher styles theses etc.
 ,tk,A windowing toolkit for use with tcl
 ,tor,Anonymizing overlay network.
 ,transmission-gtk,Fast easy and free BitTorrent client (GTK+ GUI)
@@ -147,7 +165,7 @@
 ,w3m,Text-based Web browser as well as pager
 ,wget,Network utility to retrieve files from the Web
 ,which,A utility to show the full path of commands
-,wine,A compatibility layer for running Windows programs
+,wine-staging,A compatibility layer for running Windows programs - Staging branch
 ,winetricks,Script to install various redistributable runtime libraries in Wine.
 ,wireless_tools,Tools allowing to manipulate the Wireless Extensions
 ,wpa_supplicant,A utility providing key negotiation for WPA wireless networks
@@ -202,6 +220,7 @@
 ,zsh,A very advanced and programmable command interpreter (shell) for UNIX
 A,betterlockscreen,A simple minimal lockscreen
 A,bisq,Cross-platform desktop application that allows users to trade national currency (dollars euros etc) for bitcoin without relying on centralized exchanges
+A,brave-bin,Web browser that blocks ads and trackers by default (binary release)
 A,clight,A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature dim your screen and set your dpms.
 A,etcher-bin,Flash OS images to SD cards & USB drives safely and easily
 A,flashplayer-standalone,Adobe Flash Player Standalone (A.K.A. Adobe Flash Player Projector)
@@ -212,6 +231,7 @@ A,laptop-mode-tools,Power saving tool for Linux
 A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support support to specify outputs support for unlimited clickable areas and support for longer input.
 A,libxft-bgra-git,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
 A,mcmojave-cursors,x-cursor theme inspired by macOS and based on capitaine-cursors
+A,minecraft-launcher,Official Minecraft Launcher
 A,moonlight-qt,GameStream client for PCs (Windows Mac and Linux)
 A,mps-youtube,Terminal based YouTube jukebox with playlist management
 A,mullvad-vpn-beta,The Mullvad VPN client app for desktop (beta channel)
