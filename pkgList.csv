@@ -17,6 +17,7 @@
 ,blueman,GTK+ Bluetooth Manager
 ,bluez-tools,A set of tools to manage Bluetooth devices for Linux
 ,bluez-utils,Development and debugging utilities for the bluetooth protocol stack
+,breeze,Artwork styles and assets for the Breeze visual style for the Plasma Desktop
 ,cronie,Daemon that runs specified programs at scheduled times and related tools
 ,cryptsetup,Userspace setup tool for transparent encryption of block devices using dm-crypt
 ,darktable,Utility to organize and develop raw images
@@ -123,6 +124,7 @@
 ,pulseaudio-bluetooth,Bluetooth support for PulseAudio
 ,python-pip,The PyPA recommended tool for installing Python packages
 ,qt5ct,Qt5 Configuration Utility
+,qt6ct,Qt 6 Configuration Utility
 ,r,Language and environment for statistical computing and graphics
 ,ranger,Simple vim-like file manager
 ,rclone,Sync files to and from Google Drive S3 Swift Cloudfiles Dropbox and Google Cloud Storage
