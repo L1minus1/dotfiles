@@ -30,7 +30,7 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec lxterminal
+bindsym $mod+Return exec st
 
 # kill focused window -------DISABLED FOR FIBONACCI LAYOUT--------
 #bindsym $mod+Shift+q kill
@@ -203,7 +203,7 @@ exec_always compton
 exec_always feh --bg-scale ~/Pictures/eclipse.png
 
 #Launch Ranger
-bindsym $mod+shift+f exec konsole -e ranger
+bindsym $mod+shift+f exec st -e ranger
 
 #bluetooth applet
 #exec_always blueman-applet
@@ -217,11 +217,11 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
+# Youtube Invidious keybind
+bindsym exec $mod+y ~/.scripts/yti
+
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
-
-# Subscript hotkey
-bindsym exec ~/.scripts/subscript
 
 #Remove titlebar
 for_window [class="^.*"] border pixel 1
@@ -240,6 +240,9 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
-bar {
-	status_command i3status
-}
+
+######default i3 bar, uncomment to enable######
+
+#bar {
+#	status_command i3status
+#}
