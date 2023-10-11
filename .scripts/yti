@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Check if xclip is installed
+if ! command -v xclip &> /dev/null; then
+    echo "xclip is not installed. Please install xclip and try again."
+    exit 1
+fi
+
+# Get the URL from the clipboard
+clipboard_data=$(xclip -o)
+
+# Extract the 11 characters after "?v=" using a regular expression
+if [[ $clipboard_data =~ \?v=([A-Za-z0-9]{11}) ]]; then
+    video_id=${BASH_REMATCH[1]}
+    url="https://invidious.slipfox.xyz/watch?v=$video_id"
+
+    # Open the processed URL in the default web browser
+    xdg-open "$url"
+else
+    echo "No valid YouTube video ID found in the clipboard."
+    exit 1
+fi
