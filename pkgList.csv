@@ -21,7 +21,6 @@
 ,cronie,Daemon that runs specified programs at scheduled times and related tools
 ,cryptsetup,Userspace setup tool for transparent encryption of block devices using dm-crypt
 ,darktable,Utility to organize and develop raw images
-,deepin-screenshot,Easy-to-use screenshot tool for linuxdeepin desktop environment
 ,deluge,BitTorrent client with multiple user interfaces in a client/server model
 ,dhcpcd,DHCP/ IPv4LL/ IPv6RA/ DHCPv6 client
 ,dialog,A tool to display dialog boxes from shell scripts
@@ -71,7 +70,7 @@
 ,lib32-libxcomposite,X11 Composite extension library (32-bit)
 ,lib32-libxinerama,X11 Xinerama extension library (32-bit)
 ,lib32-libxslt,XML stylesheet transformation library (32-bit)
-,lib32-mpg123,A console based real time MPEG Audio Player for Layer 1 2 and 3 (32-bit)
+,lib32-mpg123,Console based real time MPEG Audio Player for Layer 1 2 and 3 (32-bit)
 ,lib32-ocl-icd,OpenCL ICD Bindings (32-bit)
 ,lib32-openal,Cross-platform 3D audio library software implementation (32-bit)
 ,lib32-v4l-utils,Userspace tools and conversion library for Video 4 Linux (32-bit)
@@ -93,7 +92,7 @@
 ,mkinitcpio,Modular initramfs image creation utility
 ,mlocate,Merging locate/updatedb implementation
 ,monero,Monero: the secure private untraceable peer-to-peer currency
-,monero-gui,QT GUI wallet for Monero: the secure private untraceable peer-to-peer currency
+,monero-gui,Qt GUI wallet for Monero: the secure private untraceable peer-to-peer currency
 ,mpv,a free open source and cross-platform media player
 ,nano,Pico editor clone with enhancements
 ,nautilus,Default file manager for GNOME
@@ -105,6 +104,7 @@
 ,nilfs-utils,A log-structured file system supporting continuous snapshotting (userspace utils)
 ,nnn,The fastest terminal file manager ever written.
 ,notepadqq,Notepad++-like text editor for Linux
+,notification-daemon,Server implementation of the freedesktop.org desktop notification specification
 ,ntfs-3g,NTFS filesystem driver and utilities
 ,ntp,Network Time Protocol reference implementation
 ,openssh,SSH protocol implementation for remote login command execution and file transfer
@@ -141,6 +141,7 @@
 ,steam,Valve's digital software delivery system
 ,stow,Manage installation of multiple softwares in the same directory tree
 ,sudo,Give certain users the ability to run some commands as root
+,sxiv,Simple X Image Viewer
 ,syncthing,Open Source Continuous Replication / Cluster Synchronization Thing
 ,texinfo,GNU documentation system for on-line information and printed output
 ,texlive-bibtexextra,TeX Live - BibTeX additional styles
@@ -224,6 +225,7 @@ A,betterlockscreen,A simple minimal lockscreen
 A,bisq,Cross-platform desktop application that allows users to trade national currency (dollars euros etc) for bitcoin without relying on centralized exchanges
 A,brave-bin,Web browser that blocks ads and trackers by default (binary release)
 A,clight,A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature dim your screen and set your dpms.
+A,deepin-screenshot,Easy-to-use screenshot tool for linuxdeepin desktop environment
 A,etcher-bin,Flash OS images to SD cards & USB drives safely and easily
 A,flashplayer-standalone,Adobe Flash Player Standalone (A.K.A. Adobe Flash Player Projector)
 A,flashplugin,Adobe Flash Player NPAPI
@@ -237,7 +239,6 @@ A,minecraft-launcher,Official Minecraft Launcher
 A,moonlight-qt,GameStream client for PCs (Windows Mac and Linux)
 A,mps-youtube,Terminal based YouTube jukebox with playlist management
 A,mullvad-vpn-beta,The Mullvad VPN client app for desktop (beta channel)
-A,nordvpn-bin,NordVPN CLI tool for Linux
 A,openpyn-nordvpn,Easily connect to and switch between OpenVPN servers hosted by NordVPN
 A,pa-applet-git,PulseAudio control applet
 A,parsec-bin,Remotely connect to a gaming pc for a low latency remote computing experience
