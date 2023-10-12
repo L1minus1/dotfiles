@@ -10,8 +10,8 @@ fi
 clipboard_data=$(xclip -o)
 
 # Extract the 11 characters after "?v=" using a regular expression
-if [[ $clipboard_data =~ \?v=([A-Za-z0-9]{11}) ]]; then
-    video_id=${BASH_REMATCH[1]}
+if [[ $clipboard_data =~ \?v=([^\&]{11}) ]]; then    
+video_id=${BASH_REMATCH[1]}
     url="https://invidious.slipfox.xyz/watch?v=$video_id"
 
     # Open the processed URL in the default web browser
