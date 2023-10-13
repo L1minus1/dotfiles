@@ -31,7 +31,7 @@ sed -i -e 's/^/A,/' ~/.pkgsTMP/aurList
 (cat ~/.pkgsTMP/pkgsList ~/.pkgsTMP/aurList) > ~/pkgList.csv
  
 #push updated list
-autodfa ~/pkgList.csv 
+autodfa ~/progs.csv 
 /usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME push > /dev/null 2>&1
 
 #display total packages
