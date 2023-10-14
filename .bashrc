@@ -1,5 +1,6 @@
 #Aliases
 #Abrieviations
+	alias batt="cat /sys/class/power_supply/BAT0/capacity"
 	alias x="startx"
 	alias sw="setsid -f"
 	alias rs="redshift -l 33.907820:-117.780380"
@@ -14,7 +15,7 @@
 	alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 	alias fixpacman="sudo rm /var/lib/pacman/db.lck"
 #Dotfile Management
-	alias df="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
+#	alias df="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
 		##how to use:
 		#$df add <config file>
 		#$df commit -m "useful message"
