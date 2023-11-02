@@ -60,7 +60,7 @@ font-3 = unifont:fontformat=truetype:size=8:antialias=false;0
 
 modules-left = bspwm i3
 modules-center = xwindow
-modules-right = homesystem filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth battery temperature date powermenu
+modules-right = simplebatt homesystem filesystem xbacklight pulseaudio xkeyboard memory cpu wlan eth temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -336,6 +336,11 @@ bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/simplebatt]
+type = custom/script
+exec = ~/.scripts/batt
+interval = 30
 
 [module/battery]
 type = internal/battery
