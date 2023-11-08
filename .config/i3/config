@@ -204,6 +204,8 @@ exec_always feh --bg-scale ~/Pictures/eclipse.png
 
 #Launch Ranger
 bindsym $mod+shift+f exec st -e ranger
+#Launch QOwnNotes
+bindsym $mod+q exec QOwnNotes
 
 #bluetooth applet
 #exec_always blueman-applet
@@ -218,7 +220,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
 # Youtube Invidious keybind
-bindsym exec $mod+y ~/.scripts/yti
+bindsym $mod+y exec ~/.scripts/yti
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
