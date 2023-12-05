@@ -341,7 +341,9 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 type = custom/script
 exec = ~/.scripts/batt
 interval = 30
-
+[module/powerstate]
+type = script
+exec = ~/.scripts/powerstate
 [module/battery]
 type = internal/battery
 battery = BATT
