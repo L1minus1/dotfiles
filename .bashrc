@@ -21,6 +21,7 @@
 		#$df commit -m "useful message"
 		#$df push
 #Config Aliases
+	alias cfd="cd ~/.config"
 	alias cfp="vim ~/.config/polybar/config"
 	alias cfi3="vim ~/.config/i3/config"
 	alias cfb="vim ~/.bashrc"
