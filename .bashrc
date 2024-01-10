@@ -30,7 +30,7 @@
 #Suckless Aliases 
 	alias cst="sudo make install -C ~/suckless/st/"
 #A E S T H E T I C
-	neofetch --source ~/.alphabets/ARASAKA.txt
+	neofetch --source ~/.alphabets/ARASAKA.txt --ascii_colors 1 1 --colors 5 7 1 1 1 7
 #Environment Variables
 TERMINAL=st
 export PATH="$HOME/.scripts:$PATH"
