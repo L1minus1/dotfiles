@@ -1,2 +1,3 @@
-i3lock -i ~/Pictures/Mountains.png -F
+i3lock -i ~/Pictures/Mountains.png
+ -F
 sudo systemctl suspend
