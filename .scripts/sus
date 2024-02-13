@@ -1,2 +1,2 @@
-i3lock -i ~/Pictures/Eclipse.png -F
+i3lock -i ~/Pictures/Eclipse.jpg -F
 sudo systemctl suspend
