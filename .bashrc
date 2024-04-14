@@ -1,5 +1,6 @@
 #Aliases
 #Abrieviations
+	alias r="ranger"
 	alias batt="cat /sys/class/power_supply/BAT0/capacity"
 	alias x="startx"
 	alias sw="setsid -f"
