@@ -203,7 +203,7 @@ bindsym $mod+m exec ~/.scripts/PlayMusic.sh
 exec_always compton
 
 #Wallpaper
-exec_always feh --bg-scale ~/Pictures/Mountains.jpg
+exec_always feh --bg-fill ~/Pictures/blackstar.jpg
 
 #Launch Ranger
 bindsym $mod+shift+f exec st -e ranger
