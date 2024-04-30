@@ -202,8 +202,8 @@ bindsym $mod+m exec ~/.scripts/PlayMusic.sh
 #Compton(enables st alpha)
 exec_always compton
 
-#Wallpaper
-exec_always feh --bg-fill ~/Pictures/blackstar.jpg
+#wallpaper
+exec_always feh --bg-fill ~/Pictures/sky-islands.jpg
 
 #Launch Ranger
 bindsym $mod+shift+f exec st -e ranger
