@@ -202,9 +202,6 @@ bindsym $mod+m exec ~/.scripts/PlayMusic.sh
 #Compton(enables st alpha)
 exec_always compton
 
-#keepass-xc
-bindsym $mod+k exec keepassxc
-
 #wallpaper
 exec_always feh --bg-fill ~/Pictures/sky-sunset.jpg
 
