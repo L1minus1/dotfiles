@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Define the URL and filename of the file to be downloaded
+URL="https://static1.e621.net/data/43/cd/43cd0f38320fee7b525b810fd75611ce.swf"
+FILENAME="$(basename $URL)"
+
+# Download the file using wget and save it in ~/games/flash
+wget -P ~/games/flash/$FILENAME $URL
+
+# Change directory to games/flash and run flashplayer with the downloaded file as an argument
+cd ~/games/flash || exit
+flashplayer "$FILENAME"
+```
+
+Replace `https://example.com/path/to/file.ext` with the actual URL of the file you want to download. This script will save the file in the `~/games/flash` directory and then run `flashplayer` on it.
+
+To make this script executable, save it as a `.sh` file (for example, `download_and_play.sh`) and run the following command:
+
+```bash
+chmod +x download_and_play.sh
+```
+
+After that, you can execute the script using:
+
+```bash
+./download_and_play.sh
+
