@@ -203,10 +203,11 @@ bindsym $mod+m exec ~/.scripts/PlayMusic.sh
 exec_always compton
 
 #wallpaper
-exec_always feh --bg-fill ~/Pictures/sky-sunset.jpg
+exec_always feh --bg-fill ~/Pictures/skywind.jpg
 
-#Launch Ranger
-bindsym $mod+shift+f exec st -e ranger
+#Download and play flash file in clipboard
+bindsym $mod+shift+f exec flash
+
 #Launch QOwnNotes
 bindsym $mod+q exec QOwnNotes
 
