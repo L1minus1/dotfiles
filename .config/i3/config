@@ -191,7 +191,7 @@ exec_always pkill polybar ; polybar -r example
 exec_always blueman-applet
 
 #Brave
-bindsym $mod+b exec brave
+bindsym $mod+b exec firefox
 
 #nm-applet
 exec_always nm-applet
