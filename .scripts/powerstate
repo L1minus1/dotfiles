@@ -1,19 +1,17 @@
 #!/bin/bash
 
-# Path to the power supply status
-POWER_SUPPLY_DIR="/sys/class/power_supply/"
+# Get the battery level
+battLevel=$(cat /sys/class/power_supply/BAT0/capacity)
 
-# Check if there is a battery present
-if [ -d "$POWER_SUPPLY_DIR/BAT0" ]; then
-    # Get the status of the battery
-    STATUS=$(cat "$POWER_SUPPLY_DIR/BAT0/status")
-
-    if [[ "$STATUS" == "Discharging" ]]; then
-        echo ""
-    else
-        echo ""
-    fi
+# Check the battery level and echo the corresponding value
+if (( battLevel > 75 )); then
+    echo ""
+elif (( battLevel > 50 )); then
+    echo ""
+elif (( battLevel > 25 )); then
+    echo ""
+elif (( battLevel > 5 )); then
+    echo ""
 else
-    # No battery found, assume it's AC powered
-    echo "AC"
+    echo ""
 fi
