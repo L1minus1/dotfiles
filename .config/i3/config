@@ -203,7 +203,7 @@ bindsym $mod+m exec ~/.scripts/PlayMusic.sh
 exec_always compton
 
 #wallpaper
-exec_always feh --bg-fill ~/Pictures/skywind.jpg
+exec_always feh --bg-fill ~/Pictures/sky-sunset.jpg
 
 #Download and play flash file in clipboard
 bindsym $mod+shift+f exec flash
