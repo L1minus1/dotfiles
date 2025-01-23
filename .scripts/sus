@@ -1,2 +1,2 @@
-i3lock -i ~/Pictures/sky-islands.jpg -F
+i3lock -i ~/Pictures/sky-sunset.jpg -F
 sudo systemctl suspend
