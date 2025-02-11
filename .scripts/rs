@@ -1,4 +1,4 @@
 #!/bin/bash
 
 #runs redshift in california time with a color temp denoted by -t Day:Night
-redshift -t 4000:1900 -l 33.907820:-117.780380
+redshift -t 4000:2000 -l 33.907820:-117.780380
