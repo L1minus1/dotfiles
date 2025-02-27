@@ -1,0 +1,3 @@
+# copy the markdown code to insert arbitrary superscript text
+echo -n "<sup></sup>" | xclip -selection clipboard
+
