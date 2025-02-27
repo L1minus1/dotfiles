@@ -1,0 +1,2 @@
+# copy code to insert arbitrary subscript code
+echo -n "<sub></sub>" | xclip -selection clipboard
