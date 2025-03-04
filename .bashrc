@@ -1,5 +1,6 @@
 #Aliases
 #Abrieviations
+	alias vm="virt-manager"
 	alias v="vim"
 	alias r="ranger"
 	alias batt="cat /sys/class/power_supply/BAT0/capacity"
@@ -15,6 +16,7 @@
 	alias yt="mpsyt"
 	alias 6cord="6cord -t MjQ2MzcyMjA5MTU1NjM3MjQ4.XPXuLQ.nmCbixe8ga2GvTm9yoFyHqw8QAk"
 	alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
+	alias crt="cool-retro-term"
 	alias fixpacman="sudo rm /var/lib/pacman/db.lck"
 #Dotfile Management
 	alias .f="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
@@ -32,7 +34,11 @@
 #Suckless Aliases 
 	alias cst="sudo make install -C ~/suckless/st/"
 #A E S T H E T I C
-	neofetch --source ~/.alphabets/ARASAKA.txt --ascii_colors 1 1 --colors 5 7 1 1 1 7
+	neofetch --source ~/.alphabets/E-corp.txt --ascii_colors 1 1 --colors 5 7 1 1 1 7
 #Environment Variables
 TERMINAL=st
 export PATH="$HOME/.scripts:$PATH"
+export OLLAMA_MODELS=~/sdcard/models
+export PATH=/home/l/.local/bin:/home/l/.scripts:/home/l/.scripts:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+#Startx on login
+autostartx
