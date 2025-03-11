@@ -1,0 +1,3 @@
+#!/bin/bash
+# restarts libirt daemon, required for vm network functionality for some reason
+sudo systemctl restart libvirtd
