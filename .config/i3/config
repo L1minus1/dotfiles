@@ -191,7 +191,7 @@ exec_always pkill polybar ; polybar -r example
 exec_always blueman-applet
 
 #Brave
-bindsym $mod+b exec firefox
+bindsym $mod+b exec floor
 
 #nm-applet
 exec_always nm-applet
@@ -249,6 +249,9 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+# For cheating: close firefox, okular
+#bindsym $mod+shift+x exec cheatkill
 
 ######default i3 bar, uncomment to enable######
 
