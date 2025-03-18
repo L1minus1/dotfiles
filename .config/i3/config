@@ -191,7 +191,7 @@ exec_always pkill polybar ; polybar -r example
 exec_always blueman-applet
 
 #Brave
-bindsym $mod+b exec floor
+bindsym $mod+b exec floorp
 
 #nm-applet
 exec_always nm-applet
