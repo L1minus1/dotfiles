@@ -9,10 +9,9 @@ chargingStatus=$(cat /sys/class/power_supply/BAT0/status)
 # Check and echo "plug" if charging
 if [ "$chargingStatus" == "Charging" ]; then
     echo ""
-elif [ "$chargingStatus" == "Full" ]; then
-    echo ""
+else
 
-# Check the battery level and echo the corresponding value
+#Check the battery level and echo the corresponding value
 if (( battLevel > 75 )); then
     echo ""
 elif (( battLevel > 50 )); then

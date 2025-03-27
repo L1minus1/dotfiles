@@ -5,6 +5,7 @@
 ,amd-ucode,Microcode update image for AMD CPUs
 ,android-file-transfer,Android MTP client with minimalistic UI
 ,arandr,Provide a simple visual front end for XRandR 1.2.
+,ark,Archiving Tool
 ,audacity,A program that lets you manipulate digital audio waveforms
 ,autoconf,A GNU tool for automatically configuring source code
 ,automake,A GNU tool for automatically creating Makefiles
@@ -17,7 +18,11 @@
 ,blueman,GTK+ Bluetooth Manager
 ,bluez-tools,A set of tools to manage Bluetooth devices for Linux
 ,bluez-utils,Development and debugging utilities for the bluetooth protocol stack
+,bolt,Thunderbolt 3 device manager
 ,breeze,Artwork styles and assets for the Breeze visual style for the Plasma Desktop
+,cockpit,A systemd web based user interface for Linux servers
+,cool-retro-term,A good looking terminal emulator which mimics the old cathode display
+,cowsay,Configurable talking cow (and a bit more)
 ,cronie,Daemon that runs specified programs at scheduled times and related tools
 ,cryptsetup,Userspace setup tool for transparent encryption of block devices using dm-crypt
 ,darktable,Utility to organize and develop raw images
@@ -27,6 +32,7 @@
 ,diffutils,Utility programs used for creating patch files
 ,discord,All-in-one voice and text chat for gamers
 ,distrobox,Use any linux distribution inside your terminal.
+,dmenu,Generic menu for X
 ,dmidecode,Desktop Management Interface table related utilities
 ,dnsmasq,Lightweight easy to configure DNS forwarder and DHCP server
 ,docker,Pack ship and run any application as a lightweight container
@@ -37,13 +43,14 @@
 ,exfat-utils,Utilities for exFAT file system
 ,fakeroot,Tool for simulating superuser privileges
 ,feh,Fast and light imlib2-based image viewer
-,firefox,Standalone web browser from mozilla.org
+,firefox,Fast Private & Safe Web Browser
 ,firefox-i18n-en-us,English (US) language pack for Firefox
 ,flatpak,Linux application sandboxing and distribution framework (formerly xdg-app)
 ,flex,A tool for generating text-scanning programs
 ,fzf,Command-line fuzzy finder
 ,gcc,The GNU Compiler Collection - C and C++ frontends
-,gedit,GNOME Text Editor
+,gedit,Easy-to-use general-purpose text editor
+,gnome-disk-utility,Disk Management Utility for GNOME
 ,gnome-keyring,Stores passwords and encryption keys
 ,gparted,A Partition Magic clone frontend to GNU Parted
 ,gpm,A mouse server for the console and xterm
@@ -54,17 +61,23 @@
 ,i3blocks,Define blocks for your i3bar status line
 ,i3status,Generates status bar to use with i3bar dzen2 or xmobar
 ,inetutils,A collection of common network programs
+,intel-media-driver,Intel Media Driver for VAAPI — Broadwell+ iGPUs
 ,intel-ucode,Microcode update files for Intel CPUs
 ,jfsutils,JFS filesystem utilities
 ,jq,Command-line JSON processor
+,kcalc,Scientific Calculator
 ,keepassxc,Cross-platform community-driven port of Keepass password manager
 ,kitty,A modern hackable featureful OpenGL-based terminal emulator
+,kodi,A software media player and entertainment hub for digital media (gl renderer)
 ,ktorrent,A powerful BitTorrent client for KDE
-,kvantum,SVG-based theme engine for Qt5/6 (including config tool and extra themes)
+,kubo,IPFS implementation in Go
+,kvantum,SVG-based theme engine for Qt6 (including config tool and extra themes)
+,kwallet-pam,KWallet PAM integration
+,kwalletmanager,Wallet management tool
 ,lib32-giflib,Library for reading and writing gif images
 ,lib32-gnutls,A library which provides a secure layer over a reliable transport layer (32-bit)
 ,lib32-gst-plugins-base-libs,Multimedia graph framework (32-bit) - base
-,lib32-gtk3,GObject-based multi-platform GUI toolkit
+,lib32-gtk3,GObject-based multi-platform GUI toolkit (32-bit)
 ,lib32-libpulse,A featureful general-purpose sound server (32-bit client libraries)
 ,lib32-libva,Video Acceleration (VA) API for Linux (32-bit)
 ,lib32-libxcomposite,X11 Composite extension library (32-bit)
@@ -75,7 +88,7 @@
 ,lib32-openal,Cross-platform 3D audio library software implementation (32-bit)
 ,lib32-v4l-utils,Userspace tools and conversion library for Video 4 Linux (32-bit)
 ,libreoffice-fresh,LibreOffice branch which contains new features and program enhancements
-,libva-mesa-driver,VA-API drivers
+,libva-intel-driver,VA-API implementation for Intel G45 and HD Graphics family
 ,lightdm,A lightweight display manager
 ,lightdm-gtk-greeter,GTK+ greeter for LightDM
 ,linux,The Linux kernel and modules
@@ -90,39 +103,46 @@
 ,man-db,A utility for reading man pages
 ,man-pages,Linux man pages
 ,mkinitcpio,Modular initramfs image creation utility
-,mlocate,Merging locate/updatedb implementation
 ,monero,Monero: the secure private untraceable peer-to-peer currency
 ,monero-gui,Qt GUI wallet for Monero: the secure private untraceable peer-to-peer currency
 ,mpv,a free open source and cross-platform media player
 ,nano,Pico editor clone with enhancements
 ,nautilus,Default file manager for GNOME
+,ncdu,Disk usage analyzer with an ncurses interface
 ,neofetch,A CLI system information tool written in BASH that supports displaying images.
 ,netctl,Profile based systemd network management
 ,network-manager-applet,Applet for managing network connections
 ,networkmanager,Network connection manager and user applications
 ,newsboat,RSS/Atom feed reader for text terminals
+,newsflash,Feed reader application designed to complement an already existing web-based RSS reader account
 ,nilfs-utils,A log-structured file system supporting continuous snapshotting (userspace utils)
 ,nnn,The fastest terminal file manager ever written.
 ,notepadqq,Notepad++-like text editor for Linux
 ,notification-daemon,Server implementation of the freedesktop.org desktop notification specification
 ,ntfs-3g,NTFS filesystem driver and utilities
 ,ntp,Network Time Protocol reference implementation
+,obs-studio,Free open source software for live streaming and recording
+,okular,Document Viewer
+,ollama,Create run and share large language models (LLMs)
+,openbsd-netcat,TCP/IP swiss army knife. OpenBSD variant.
 ,openssh,SSH protocol implementation for remote login command execution and file transfer
 ,os-prober,Utility to detect other OSes on a set of drives
 ,pandoc-cli,Conversion between documentation formats
 ,parted,A program for creating destroying resizing checking and copying partitions
 ,patch,A utility to apply patch files to original sources
 ,pavucontrol,PulseAudio Volume Control
-,picom,X compositor that may fix tearing issues
+,picom,Lightweight compositor for X11
+,plocate,Alternative to locate faster and compatible with mlocate's database.
 ,podman,Tool and library for running OCI-based containers in pods
 ,polkit-gnome,Legacy polkit authentication agent for GNOME
 ,polybar,A fast and easy-to-use status bar
-,powerline-fonts,patched fonts for powerline
+,powerline-fonts,Patched fonts for powerline
 ,ppp,A daemon which implements the Point-to-Point Protocol for dial-up networking
 ,pulseaudio,A featureful general-purpose sound server
 ,pulseaudio-alsa,ALSA Configuration for PulseAudio
 ,pulseaudio-bluetooth,Bluetooth support for PulseAudio
 ,python-pip,The PyPA recommended tool for installing Python packages
+,qemu-desktop,A QEMU setup for desktop environments
 ,qt5ct,Qt5 Configuration Utility
 ,qt6ct,Qt 6 Configuration Utility
 ,r,Language and environment for statistical computing and graphics
@@ -130,11 +150,11 @@
 ,rclone,Sync files to and from Google Drive S3 Swift Cloudfiles Dropbox and Google Cloud Storage
 ,redshift,Adjusts the color temperature of your screen according to your surroundings.
 ,reflector,A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-,reiserfsprogs,Reiserfs utilities
 ,rofi,A window switcher application launcher and dmenu replacement
 ,rsync,A fast and versatile file copying tool for remote and local files
 ,rxvt-unicode,Unicode enabled rxvt-clone terminal emulator (urxvt)
 ,s-nail,Environment for sending and receiving mail
+,samba,SMB Fileserver and AD Domain server
 ,scrot,Simple command-line screenshot utility for X
 ,sof-firmware,Sound Open Firmware
 ,speedtest-cli,Command line interface for testing internet bandwidth using speedtest.net
@@ -162,8 +182,11 @@
 ,ttf-joypixels,Emoji as a Service (formerly EmojiOne)
 ,unrar,The RAR uncompression program
 ,usbutils,A collection of USB tools to query connected USB devices
+,vde2,Virtual Distributed Ethernet for emulators like qemu
 ,vi,The original ex/vi text editor
 ,vim,Vi Improved a highly configurable improved version of the vi text editor
+,virt-manager,Desktop user interface for managing virtual machines
+,virt-viewer,A lightweight interface for interacting with the graphical display of virtualized guest OS.
 ,vlc,Multi-platform MPEG VCD/DVD and DivX player
 ,w3m,Text-based Web browser as well as pager
 ,wget,Network utility to retrieve files from the Web
@@ -171,6 +194,7 @@
 ,wine-staging,A compatibility layer for running Windows programs - Staging branch
 ,winetricks,Script to install various redistributable runtime libraries in Wine.
 ,wireless_tools,Tools allowing to manipulate the Wireless Extensions
+,wireshark-qt,Network traffic and protocol analyzer/sniffer - Qt GUI
 ,wpa_supplicant,A utility providing key negotiation for WPA wireless networks
 ,xaos,Interactive fractal zoomer
 ,xclip,Command line interface to the X11 clipboard
@@ -185,7 +209,6 @@
 ,xf86-video-fbdev,X.org framebuffer video driver
 ,xf86-video-intel,X.org Intel i810/i830/i915/945G/G965+ video drivers
 ,xf86-video-nouveau,Open Source 3D acceleration driver for nVidia cards
-,xf86-video-openchrome,X.Org Openchrome drivers
 ,xf86-video-qxl,Xorg X11 qxl video driver
 ,xf86-video-vesa,X.org vesa video driver
 ,xf86-video-vmware,X.org vmware video driver
@@ -220,38 +243,54 @@
 ,xorg-xwd,X Window System image dumping utility
 ,xorg-xwininfo,Command-line utility to print information about windows on an X server
 ,xorg-xwud,X Window System image undumping utility
+,xournalpp,Handwriting notetaking software with PDF annotation support
+,yt-dlp,A youtube-dl fork with additional features and fixes
 ,zsh,A very advanced and programmable command interpreter (shell) for UNIX
+A,adwaita-solarized-qt5,A solarized style to bend Qt5 applications to look like they belong into GNOME Shell
+A,adwaita-solarized-qt6,A solarized style to bend Qt6 applications to look like they belong into GNOME Shell
 A,betterlockscreen,A simple minimal lockscreen
 A,bisq,Cross-platform desktop application that allows users to trade national currency (dollars euros etc) for bitcoin without relying on centralized exchanges
 A,brave-bin,Web browser that blocks ads and trackers by default (binary release)
 A,clight,A C daemon that turns your webcam into a light sensor. It can also change display gamma temperature dim your screen and set your dpms.
+A,cozy-audiobooks,A modern audio book player for Linux and macOS using GTK+ 3
 A,deepin-screenshot,Easy-to-use screenshot tool for linuxdeepin desktop environment
 A,etcher-bin,Flash OS images to SD cards & USB drives safely and easily
 A,flashplayer-standalone,Adobe Flash Player Standalone (A.K.A. Adobe Flash Player Projector)
 A,flashplugin,Adobe Flash Player NPAPI
+A,floorp-bin,Firefox-based web browser focused on performance and customizability
 A,growl-for-linux,Growl for Linux
 A,gtk-theme-numix-solarized-git,Solarized versions of Numix GTK2 and GTK3 theme compatible with GTK 3.20
 A,laptop-mode-tools,Power saving tool for Linux
 A,lemonbar-clicks-git,A lightweight xcb based bar with ported xft support support to specify outputs support for unlimited clickable areas and support for longer input.
+A,libation,Audible audiobook manager: liberate your Library
 A,libxft-bgra-git,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
-A,mcmojave-cursors,x-cursor theme inspired by macOS and based on capitaine-cursors
+A,mcmojave-cursors,X-cursor theme inspired by macOS and based on capitaine-cursors
 A,minecraft-launcher,Official Minecraft Launcher
-A,moonlight-qt,GameStream client for PCs (Windows Mac and Linux)
+A,moonlight-qt-git,GameStream client for PCs (Windows Mac and Linux) (master branch)
 A,mps-youtube,Terminal based YouTube jukebox with playlist management
-A,mullvad-vpn-beta,The Mullvad VPN client app for desktop (beta channel)
-A,openpyn-nordvpn,Easily connect to and switch between OpenVPN servers hosted by NordVPN
+A,mullvad-vpn-bin,The Mullvad VPN client app for desktop
 A,pa-applet-git,PulseAudio control applet
 A,parsec-bin,Remotely connect to a gaming pc for a low latency remote computing experience
 A,paru,Feature packed AUR helper
+A,popcorntime-bin,Stream free movies and TV shows from torrents
+A,proton-caller,Run any Windows program through Proton
+A,pspp,Statistical analysis program. Free replacement for SPSS.
+A,qdirstat,Qt-based directory statistics (KDirStat/K4DirStat without any KDE - from the original KDirStat author)
 A,qogir-gtk-theme-git,Qogir is a flat Design theme for GTK
+A,qownnotes,Plain-text file markdown note taking with Nextcloud/ownCloud integration
+A,qt5-styleplugins,Additional style plugins for Qt5
+A,reiserfsprogs,Reiserfs utilities
+A,rstudio-desktop-bin,An integrated development environment (IDE) for R (binary from RStudio official repository)
 A,siji,Iconic bitmap font based on stlarch with additional glyphs
 A,surf,A simple web browser based on WebKit/GTK+.
-A,syncthing-gtk-python3,GTK3 based GUI and notification area icon for Syncthing. Python 3 port with Debian sources.
+A,syncthing-gtk,GTK3 based GUI and notification area icon for Syncthing.
 A,tela-circle-icon,A flat colorful design icon theme
 A,tor-browser,Tor Browser Bundle: anonymous browsing using Firefox and Tor (international PKGBUILD)
 A,ttf-font-awesome-4,100% free version of font awesome.
 A,ttf-symbola,Font for symbol blocks of the Unicode Standard (TTF)
 A,ttf-unifont,TrueType version of the GNU Unifont
 A,wireguard-go-git,Go userspace implementation of WireGuard
+A,xf86-video-openchrome,X.Org Openchrome drivers
 A,yay,Yet another yogurt. Pacman wrapper and AUR helper written in go.
+A,youtube-dl-git,A small command-line program to download videos from YouTube.com and a few more sites (git version)
 A,zoom,Video Conferencing and Web Conferencing Service
