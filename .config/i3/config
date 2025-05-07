@@ -190,8 +190,9 @@ exec_always pkill polybar ; polybar -r example
 #bluetooth applet
 exec_always blueman-applet
 
-#Brave
+#Floorp
 bindsym $mod+b exec floorp
+bindsym $mod+shift+b exec floorp %u --private-window
 
 #nm-applet
 exec_always nm-applet
