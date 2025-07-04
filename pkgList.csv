@@ -1,4 +1,3 @@
-,acpilight,a backward-compatible xbacklight replacement based on ACPI
 ,alacritty,A cross-platform GPU-accelerated terminal emulator
 ,alsa-firmware,Firmware binaries for loader programs in alsa-tools and hotplug firmware loader
 ,alsa-utils,Advanced Linux Sound Architecture - Utilities
@@ -9,6 +8,7 @@
 ,audacity,A program that lets you manipulate digital audio waveforms
 ,autoconf,A GNU tool for automatically configuring source code
 ,automake,A GNU tool for automatically creating Makefiles
+,autorandr,Auto-detect connected display hardware and load appropiate X11 setup using xrandr
 ,b43-fwcutter,firmware extractor for the b43 kernel module
 ,base,Minimal package set to define a basic Arch Linux installation
 ,bash-completion,Programmable completion for the bash shell
@@ -20,6 +20,7 @@
 ,bluez-utils,Development and debugging utilities for the bluetooth protocol stack
 ,bolt,Thunderbolt 3 device manager
 ,breeze,Artwork styles and assets for the Breeze visual style for the Plasma Desktop
+,cheese,Take photos and videos with your webcam with fun graphical effects
 ,cockpit,A systemd web based user interface for Linux servers
 ,cool-retro-term,A good looking terminal emulator which mimics the old cathode display
 ,cowsay,Configurable talking cow (and a bit more)
@@ -43,10 +44,9 @@
 ,exfat-utils,Utilities for exFAT file system
 ,fakeroot,Tool for simulating superuser privileges
 ,feh,Fast and light imlib2-based image viewer
-,firefox,Fast Private & Safe Web Browser
-,firefox-i18n-en-us,English (US) language pack for Firefox
 ,flatpak,Linux application sandboxing and distribution framework (formerly xdg-app)
 ,flex,A tool for generating text-scanning programs
+,font-manager,A simple font management application for GTK+ Desktop Environments
 ,fzf,Command-line fuzzy finder
 ,gcc,The GNU Compiler Collection - C and C++ frontends
 ,gedit,Easy-to-use general-purpose text editor
@@ -65,6 +65,7 @@
 ,intel-ucode,Microcode update files for Intel CPUs
 ,jfsutils,JFS filesystem utilities
 ,jq,Command-line JSON processor
+,kate,Advanced text editor
 ,kcalc,Scientific Calculator
 ,keepassxc,Cross-platform community-driven port of Keepass password manager
 ,kitty,A modern hackable featureful OpenGL-based terminal emulator
@@ -92,7 +93,7 @@
 ,lightdm,A lightweight display manager
 ,lightdm-gtk-greeter,GTK+ greeter for LightDM
 ,linux,The Linux kernel and modules
-,linux-firmware,Firmware files for Linux
+,linux-firmware,Firmware files for Linux - Default set
 ,logrotate,Rotates system logs automatically
 ,luit,Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
 ,lutris,Open Gaming Platform
@@ -109,7 +110,6 @@
 ,nano,Pico editor clone with enhancements
 ,nautilus,Default file manager for GNOME
 ,ncdu,Disk usage analyzer with an ncurses interface
-,neofetch,A CLI system information tool written in BASH that supports displaying images.
 ,netctl,Profile based systemd network management
 ,network-manager-applet,Applet for managing network connections
 ,networkmanager,Network connection manager and user applications
@@ -119,6 +119,7 @@
 ,nnn,The fastest terminal file manager ever written.
 ,notepadqq,Notepad++-like text editor for Linux
 ,notification-daemon,Server implementation of the freedesktop.org desktop notification specification
+,noto-fonts,Google Noto TTF fonts
 ,ntfs-3g,NTFS filesystem driver and utilities
 ,ntp,Network Time Protocol reference implementation
 ,obs-studio,Free open source software for live streaming and recording
@@ -156,6 +157,8 @@
 ,s-nail,Environment for sending and receiving mail
 ,samba,SMB Fileserver and AD Domain server
 ,scrot,Simple command-line screenshot utility for X
+,signal-desktop,Signal Private Messenger for Linux
+,smb4k,A KDE program that browses samba shares
 ,sof-firmware,Sound Open Firmware
 ,speedtest-cli,Command line interface for testing internet bandwidth using speedtest.net
 ,steam,Valve's digital software delivery system
@@ -165,21 +168,26 @@
 ,syncthing,Open Source Continuous Replication / Cluster Synchronization Thing
 ,texinfo,GNU documentation system for on-line information and printed output
 ,texlive-bibtexextra,TeX Live - BibTeX additional styles
+,texlive-binextra,TeX Live - TeX auxiliary programs
+,texlive-context,TeX Live - ConTeXt and packages
 ,texlive-fontsextra,TeX Live - Additional fonts
+,texlive-fontutils,TeX Live - Graphics and font utilities
 ,texlive-formatsextra,TeX Live - Additional formats
 ,texlive-games,TeX Live - Games typesetting
 ,texlive-humanities,TeX Live - Humanities packages
+,texlive-luatex,TeX Live - LuaTeX packages
 ,texlive-mathscience,TeX Live - Mathematics natural sciences computer science packages
+,texlive-metapost,TeX Live - MetaPost and Metafont packages
 ,texlive-music,TeX Live - Music packages
 ,texlive-pictures,TeX Live - Graphics pictures diagrams
 ,texlive-pstricks,TeX Live - PSTricks
 ,texlive-publishers,TeX Live - Publisher styles theses etc.
+,texlive-xetex,TeX Live - XeTeX and packages
 ,tk,A windowing toolkit for use with tcl
 ,tor,Anonymizing overlay network.
 ,transmission-gtk,Fast easy and free BitTorrent client (GTK+ GUI)
 ,ttf-dejavu,Font family based on the Bitstream Vera Fonts with a wider range of characters
 ,ttf-font-awesome,Iconic font designed for Bootstrap
-,ttf-joypixels,Emoji as a Service (formerly EmojiOne)
 ,unrar,The RAR uncompression program
 ,usbutils,A collection of USB tools to query connected USB devices
 ,vde2,Virtual Distributed Ethernet for emulators like qemu
@@ -189,7 +197,7 @@
 ,virt-viewer,A lightweight interface for interacting with the graphical display of virtualized guest OS.
 ,vlc,Multi-platform MPEG VCD/DVD and DivX player
 ,w3m,Text-based Web browser as well as pager
-,wget,Network utility to retrieve files from the Web
+,wget,Network utility to retrieve files from the web
 ,which,A utility to show the full path of commands
 ,wine-staging,A compatibility layer for running Windows programs - Staging branch
 ,winetricks,Script to install various redistributable runtime libraries in Wine.
@@ -211,7 +219,6 @@
 ,xf86-video-nouveau,Open Source 3D acceleration driver for nVidia cards
 ,xf86-video-qxl,Xorg X11 qxl video driver
 ,xf86-video-vesa,X.org vesa video driver
-,xf86-video-vmware,X.org vmware video driver
 ,xf86-video-voodoo,X.org 3dfx Voodoo1/Voodoo2 2D video driver
 ,xorg-bdftopcf,Convert X font from Bitmap Distribution Format to Portable Compiled Format
 ,xorg-fonts-misc,X.org misc fonts
@@ -246,8 +253,10 @@
 ,xournalpp,Handwriting notetaking software with PDF annotation support
 ,yt-dlp,A youtube-dl fork with additional features and fixes
 ,zsh,A very advanced and programmable command interpreter (shell) for UNIX
+A,acpilight,a backward-compatible xbacklight replacement based on ACPI
 A,adwaita-solarized-qt5,A solarized style to bend Qt5 applications to look like they belong into GNOME Shell
 A,adwaita-solarized-qt6,A solarized style to bend Qt6 applications to look like they belong into GNOME Shell
+A,alvr-bin,Experimental Linux version of ALVR. Stream VR games from your PC to your headset via Wi-Fi.
 A,betterlockscreen,A simple minimal lockscreen
 A,bisq,Cross-platform desktop application that allows users to trade national currency (dollars euros etc) for bitcoin without relying on centralized exchanges
 A,brave-bin,Web browser that blocks ads and trackers by default (binary release)
@@ -266,9 +275,10 @@ A,libation,Audible audiobook manager: liberate your Library
 A,libxft-bgra-git,libXft with BGRA glyph (color emoji) rendering & scaling patches by Maxime Coste
 A,mcmojave-cursors,X-cursor theme inspired by macOS and based on capitaine-cursors
 A,minecraft-launcher,Official Minecraft Launcher
-A,moonlight-qt-git,GameStream client for PCs (Windows Mac and Linux) (master branch)
+A,moonlight-qt-axi-appimage,moonlight-qt by Axixi2233 bin from appimage
 A,mps-youtube,Terminal based YouTube jukebox with playlist management
 A,mullvad-vpn-bin,The Mullvad VPN client app for desktop
+A,neofetch,A CLI system information tool written in BASH that supports displaying images.
 A,pa-applet-git,PulseAudio control applet
 A,parsec-bin,Remotely connect to a gaming pc for a low latency remote computing experience
 A,paru,Feature packed AUR helper
@@ -287,10 +297,13 @@ A,syncthing-gtk,GTK3 based GUI and notification area icon for Syncthing.
 A,tela-circle-icon,A flat colorful design icon theme
 A,tor-browser,Tor Browser Bundle: anonymous browsing using Firefox and Tor (international PKGBUILD)
 A,ttf-font-awesome-4,100% free version of font awesome.
+A,ttf-joypixels,Emoji as a Service (formerly EmojiOne)
 A,ttf-symbola,Font for symbol blocks of the Unicode Standard (TTF)
 A,ttf-unifont,TrueType version of the GNU Unifont
 A,wireguard-go-git,Go userspace implementation of WireGuard
 A,xf86-video-openchrome,X.Org Openchrome drivers
+A,xf86-video-vmware,X.org vmware video driver
+A,xfce-polkit,A simple PolicyKit authentication agent for XFCE
 A,yay,Yet another yogurt. Pacman wrapper and AUR helper written in go.
 A,youtube-dl-git,A small command-line program to download videos from YouTube.com and a few more sites (git version)
 A,zoom,Video Conferencing and Web Conferencing Service

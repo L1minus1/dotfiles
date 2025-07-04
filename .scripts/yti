@@ -12,7 +12,7 @@ clipboard_data=$(xclip -o)
 # Extract the 11 characters after "?v=" using a regular expression
 if [[ $clipboard_data =~ \?v=([^\&]{11}) ]]; then    
 video_id=${BASH_REMATCH[1]}
-    url="https://invidious.slipfox.xyz/watch?v=$video_id"
+    url="https://yewtu.be/watch?v=$video_id"
 
     # Open the processed URL in the default web browser
     xdg-open "$url"
