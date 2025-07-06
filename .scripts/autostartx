@@ -1,0 +1,5 @@
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+sudo mount --mkdir -t cifs //OPENMEDIAVAULT/media /media/smb -o username=l,password=herobrine360160,workgroup=workgroup,iocharset=utf8,uid=l
+startx
+fi
+
